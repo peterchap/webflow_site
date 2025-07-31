@@ -1,0 +1,2201 @@
+<html>
+
+<head>
+    <style>
+        .style-0 {
+            cursor: auto;
+            background-color: rgb(251, 253, 251);
+            color: rgb(19, 19, 38);
+            max-width: none;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            font-family: Inter, sans-serif;
+            display: block;
+            font-size: 14px;
+            line-height: 20px;
+            min-height: 100%;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-1 {
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-2 {
+            z-index: 5;
+            border-style: solid;
+            border-width: 0px 0px 1px;
+            border-color: rgba(86, 96, 115, 0.7);
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            max-width: 1520px;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 0px 20px 20px;
+            font-family: Inter, sans-serif;
+            font-weight: 700;
+            background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-3 {
+            border-style: none;
+            border-width: 0px;
+            border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(245, 245, 245);
+            background-color: rgb(251, 253, 251);
+            color: rgb(251, 253, 251);
+            border-radius: 0px;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-4 {
+            color: rgb(243, 236, 236);
+            float: left;
+            text-decoration: none solid rgb(243, 236, 236);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-5 {
+            color: rgb(255, 255, 255);
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+            background-color: rgb(30, 64, 175);
+            background-image: linear-gradient(135deg, rgb(0, 80, 157), rgb(0, 136, 237) 95%, rgb(59, 130, 246) 100%, rgb(0, 218, 217) 100%, rgb(59, 130, 246) 100%, rgb(0, 220, 217) 100%, rgb(0, 207, 220) 100%, rgb(0, 193, 223) 100%, rgb(0, 181, 226) 100%, rgb(59, 130, 246) 100%, rgb(247, 251, 254) 100%, rgb(255, 255, 255));
+            -webkit-background-clip: text;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: block;
+            font-weight: 700;
+            line-height: 40px;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        .style-6 {
+            margin-right: 10px;
+            float: right;
+            position: relative;
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-7 {
+            color: rgb(34, 34, 34);
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0px;
+            display: flex;
+            padding-left: 0px;
+            list-style: outside none none;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-8 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-9 {
+            text-align: left;
+            z-index: 900;
+            margin-left: auto;
+            margin-right: auto;
+            display: inline-block;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-10 {
+            font-family: Inter, sans-serif;
+            user-select: none;
+            cursor: pointer;
+            padding-right: 40px;
+            display: inline-block;
+            vertical-align: top;
+            color: rgb(34, 34, 34);
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 40px 20px 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-11 {
+            font-family: webflow-icons;
+            font-size: 16px;
+            width: 1em;
+            height: 16px;
+            margin: auto 20px auto auto;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            box-sizing: border-box;
+            speak: none;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+        }
+
+        .style-12 {
+            letter-spacing: 2px;
+            font-family: Inter, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-13 {
+            background: rgb(221, 221, 221) none repeat scroll 0% 0% / auto padding-box border-box;
+            min-width: 100%;
+            display: none;
+            position: absolute;
+            box-sizing: border-box;
+        }
+
+        .style-14 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-15 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-16 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-17 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-18 {
+            text-align: left;
+            z-index: 900;
+            margin-left: auto;
+            margin-right: auto;
+            display: inline-block;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-19 {
+            letter-spacing: normal;
+            font-family: Inter, sans-serif;
+            user-select: none;
+            cursor: pointer;
+            padding-right: 40px;
+            display: inline-block;
+            vertical-align: top;
+            color: rgb(34, 34, 34);
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 40px 20px 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-20 {
+            font-family: webflow-icons;
+            font-size: 16px;
+            width: 1em;
+            height: 16px;
+            margin: auto 20px auto auto;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            box-sizing: border-box;
+            speak: none;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+        }
+
+        .style-21 {
+            letter-spacing: 2px;
+            font-family: Inter, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-22 {
+            background: rgb(221, 221, 221) none repeat scroll 0% 0% / auto padding-box border-box;
+            min-width: 100%;
+            display: none;
+            position: absolute;
+            box-sizing: border-box;
+        }
+
+        .style-23 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-24 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-25 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-26 {
+            color: rgb(34, 34, 34);
+            text-align: center;
+            letter-spacing: 2px;
+            overflow-wrap: break-word;
+            mix-blend-mode: normal;
+            align-items: center;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 5px 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            display: inline-flex;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-27 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-28 {
+            color: rgb(34, 34, 34);
+            text-align: center;
+            letter-spacing: 2px;
+            overflow-wrap: break-word;
+            mix-blend-mode: normal;
+            align-items: center;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 5px 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            display: inline-flex;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-29 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-30 {
+            background-color: rgb(228, 235, 243);
+            width: 1px;
+            height: 22px;
+            margin-left: 15px;
+            margin-right: 15px;
+            box-sizing: border-box;
+        }
+
+        .style-31 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-32 {
+            background-color: rgb(242, 113, 8);
+            color: rgb(255, 255, 255);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 12px 25px;
+            font-size: 12px;
+            line-height: 20px;
+            transition: 0.2s;
+            cursor: pointer;
+            border: 0px none rgb(255, 255, 255);
+            border-radius: 0px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        .style-33 {
+            background-color: rgb(3, 87, 175);
+            color: rgb(255, 255, 255);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-left: 10px;
+            padding: 12px 10px;
+            font-family: Inter, sans-serif;
+            font-size: 12px;
+            line-height: 20px;
+            transition: 0.2s;
+            cursor: pointer;
+            border: 0px none rgb(255, 255, 255);
+            border-radius: 0px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        .style-34 {
+            -webkit-user-select: text;
+            float: right;
+            cursor: pointer;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            user-select: text;
+            padding: 18px;
+            font-size: 24px;
+            display: none;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-35 {
+            box-sizing: border-box;
+            speak: none;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            font-family: webflow-icons;
+        }
+
+        .style-36 {
+            width: 100%;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0px;
+            right: 0px;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .style-37 {
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-38 {
+            grid-template-rows: auto auto auto auto;
+            grid-template-columns: 1239px;
+            align-self: auto;
+            margin-bottom: 20px;
+            padding: 0px;
+            font-family: Inter, sans-serif;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-39 {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-40 {
+            background-color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            color: rgb(34, 34, 34);
+            text-align: center;
+            text-transform: none;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+            -webkit-background-clip: text;
+            align-self: center;
+            margin-bottom: 20px;
+            margin-left: 0px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 60px;
+            margin-top: 0px;
+            box-sizing: border-box;
+            margin: 0px 0px 20px;
+        }
+
+        .style-41 {
+            color: rgb(34, 34, 34);
+            font-size: 40px;
+            box-sizing: border-box;
+            font-weight: 700;
+        }
+
+        .style-42 {
+            box-sizing: border-box;
+        }
+
+        .style-43 {
+            text-align: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-44 {
+            color: rgba(86, 96, 115, 0.7);
+            text-align: center;
+            justify-content: center;
+            align-self: center;
+            width: auto;
+            max-width: none;
+            margin-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 34px;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-45 {
+            font-family: Inter, sans-serif;
+            font-size: 19.2px;
+            box-sizing: border-box;
+            font-weight: 700;
+        }
+
+        .style-46 {
+            box-sizing: border-box;
+        }
+
+        .style-47 {
+            gap: 22px;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+        }
+
+        .style-48 {
+            background-color: rgb(3, 87, 175);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 8px;
+            justify-content: center;
+            align-self: center;
+            align-items: stretch;
+            max-width: none;
+            margin-top: 10px;
+            margin-left: 0px;
+            margin-right: 20px;
+            line-height: 19.2px;
+            display: flex;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            padding: 9px 15px;
+            text-decoration: none solid rgb(255, 255, 255);
+            box-sizing: border-box;
+        }
+
+        .style-49 {
+            background-color: rgb(3, 87, 175);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 8px;
+            justify-content: center;
+            align-self: center;
+            align-items: stretch;
+            max-width: none;
+            margin-top: 10px;
+            margin-left: 0px;
+            margin-right: 20px;
+            line-height: 19.2px;
+            display: flex;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            padding: 9px 15px;
+            text-decoration: none solid rgb(255, 255, 255);
+            box-sizing: border-box;
+        }
+
+        .style-50 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-51 {
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-52 {
+            color: rgb(34, 34, 34);
+            font-family: Inter, sans-serif;
+            font-size: 35.2px;
+            text-align: center;
+            object-fit: none;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            line-height: 46px;
+            box-sizing: border-box;
+        }
+
+        .style-53 {
+            text-align: center;
+            justify-content: center;
+            margin-left: 60px;
+            margin-right: 60px;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-54 {
+            gap: 16px;
+            text-align: center;
+            overflow-wrap: normal;
+            flex-flow: row nowrap;
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            min-width: auto;
+            max-width: 50%;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            padding-left: 0px;
+            font-family: Inter, sans-serif;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-55 {
+            display: block;
+            gap: 6px;
+            text-align: left;
+            flex-flow: row nowrap;
+            flex: 1 1 0%;
+            justify-content: center;
+            align-self: auto;
+            align-items: center;
+            width: 66%;
+            max-width: 99.9999%;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            font-family: Inter, sans-serif;
+            position: static;
+            box-sizing: border-box;
+        }
+
+        .style-56 {
+            gap: 0px;
+            border-radius: 9px;
+            flex: 0 1 auto;
+            justify-content: center;
+            align-self: auto;
+            align-items: center;
+            min-width: auto;
+            max-width: 90%;
+            margin-bottom: 0px;
+            margin-right: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            display: block;
+            position: static;
+            color: rgb(51, 51, 51);
+            vertical-align: middle;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(204, 204, 204);
+            width: 100%;
+            height: 38px;
+            padding: 8px 0px;
+            font-size: 14px;
+            line-height: 20px;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        .style-57 {
+            background-color: rgb(3, 87, 175);
+            text-align: center;
+            border-radius: 6px;
+            flex: 0 1 auto;
+            align-self: auto;
+            min-width: 80px;
+            max-width: none;
+            min-height: 0px;
+            max-height: none;
+            margin-top: 0px;
+            padding: 10px 0px;
+            font-family: Inter, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            display: block;
+            overflow: auto;
+            appearance: button;
+            color: rgb(255, 255, 255);
+            line-height: 20px;
+            cursor: pointer;
+            border: 0px none rgb(255, 255, 255);
+            text-decoration: none solid rgb(255, 255, 255);
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        .style-58 {
+            box-sizing: border-box;
+        }
+
+        .style-59 {
+            box-sizing: border-box;
+        }
+
+        .style-60 {
+            box-sizing: border-box;
+            line-height: normal;
+            color: rgb(0, 0, 0);
+            font: 16px 'Times New Roman';
+            margin: 0px;
+        }
+
+        .style-61 {
+            text-align: center;
+            background-color: rgb(221, 221, 221);
+            padding: 20px;
+            display: none;
+            box-sizing: border-box;
+        }
+
+        .style-62 {
+            box-sizing: border-box;
+        }
+
+        .style-63 {
+            box-sizing: border-box;
+        }
+
+        .style-64 {
+            background-color: rgb(255, 222, 222);
+            margin-top: 10px;
+            padding: 10px;
+            display: none;
+            box-sizing: border-box;
+        }
+
+        .style-65 {
+            box-sizing: border-box;
+        }
+
+        .style-66 {
+            box-sizing: border-box;
+        }
+
+        .style-67 {
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-68 {
+            background-color: rgb(251, 253, 251);
+            color: rgb(34, 34, 34);
+            text-align: center;
+            margin-top: 60px;
+            margin-bottom: 40px;
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 46px;
+            box-sizing: border-box;
+        }
+
+        .style-69 {
+            font-size: 35.2px;
+            box-sizing: border-box;
+            font-weight: 700;
+        }
+
+        .style-70 {
+            grid-template-rows: auto;
+            grid-template-columns: 386.328px 386.328px 386.344px;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-71 {
+            border: 0px solid rgba(86, 96, 115, 0.7);
+            background-color: rgb(245, 245, 245);
+            border-radius: 9px;
+            font-family: Inter, sans-serif;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-72 {
+            text-align: left;
+            align-self: flex-start;
+            max-width: 48px;
+            max-height: 48px;
+            margin-top: 10px;
+            margin-left: 10px;
+            vertical-align: middle;
+            display: block;
+            box-sizing: border-box;
+            border: 0px none rgb(19, 19, 38);
+        }
+
+        .style-73 {
+            padding: 10px;
+            flex-direction: column;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-74 {
+            color: rgb(34, 34, 34);
+            text-align: center;
+            align-self: center;
+            margin-bottom: 40px;
+            font-family: Inter, sans-serif;
+            font-size: 24px;
+            margin-top: 10px;
+            line-height: 24px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-75 {
+            color: rgba(86, 96, 115, 0.7);
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-76 {
+            border: 0px solid rgba(86, 96, 115, 0.7);
+            background-color: rgb(245, 245, 245);
+            border-radius: 9px;
+            justify-content: flex-start;
+            align-items: center;
+            font-family: Inter, sans-serif;
+            flex-direction: column;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-77 {
+            align-self: flex-start;
+            max-width: 48px;
+            max-height: 48px;
+            margin-top: 10px;
+            margin-left: 10px;
+            vertical-align: middle;
+            display: block;
+            box-sizing: border-box;
+            border: 0px none rgb(19, 19, 38);
+        }
+
+        .style-78 {
+            padding: 10px;
+            flex-direction: column;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-79 {
+            color: rgb(34, 34, 34);
+            text-align: center;
+            align-self: center;
+            margin-bottom: 40px;
+            font-family: Inter, sans-serif;
+            font-size: 24px;
+            margin-top: 10px;
+            line-height: 24px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-80 {
+            color: rgba(86, 96, 115, 0.7);
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-81 {
+            border: 0px solid rgba(86, 96, 115, 0.7);
+            background-color: rgb(245, 245, 245);
+            border-radius: 9px;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-82 {
+            padding: 10px;
+            flex-direction: column;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-83 {
+            align-self: flex-start;
+            max-width: 42px;
+            max-height: 42px;
+            margin-bottom: 15px;
+            vertical-align: middle;
+            display: block;
+            box-sizing: border-box;
+            border: 0px none rgb(19, 19, 38);
+        }
+
+        .style-84 {
+            color: rgb(34, 34, 34);
+            text-align: center;
+            align-self: center;
+            margin-bottom: 40px;
+            font-family: Inter, sans-serif;
+            font-size: 24px;
+            margin-top: 10px;
+            line-height: 24px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-85 {
+            color: rgba(86, 96, 115, 0.7);
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-86 {
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-87 {
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            max-width: 940px;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+        }
+
+        .style-88 {
+            text-align: center;
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            color: rgb(34, 34, 34);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            line-height: 46px;
+            box-sizing: border-box;
+        }
+
+        .style-89 {
+            box-sizing: border-box;
+        }
+
+        .style-90 {
+            color: rgb(19, 19, 38);
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            margin-bottom: 10px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-91 {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            max-width: 60%;
+            margin-left: 0px;
+            margin-right: 60px;
+            padding-left: 60px;
+            padding-right: 60px;
+            display: flex;
+            vertical-align: middle;
+            box-sizing: border-box;
+            border: 0px none rgb(19, 19, 38);
+        }
+
+        .style-92 {
+            color: rgb(34, 34, 34);
+            margin-top: 40px;
+            margin-bottom: 40px;
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-93 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            font-weight: 700;
+            line-height: 40px;
+            box-sizing: border-box;
+            margin: 0px 0px 10px;
+        }
+
+        .style-94 {
+            grid-template-rows: auto;
+            grid-template-columns: 589.5px 589.5px;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-95 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-96 {
+            width: 96px;
+            max-width: 7%;
+            height: 42.9688px;
+            max-height: 7%;
+            margin-left: 5px;
+            vertical-align: middle;
+            display: block;
+            box-sizing: border-box;
+            border: 0px none rgb(34, 34, 34);
+        }
+
+        .style-97 {
+            color: rgb(34, 34, 34);
+            font-family: Inter, sans-serif;
+            font-size: 19.2px;
+            padding-left: 10px;
+            margin-top: 10px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-98 {
+            margin-top: 0px;
+            margin-bottom: 10px;
+            padding-left: 40px;
+            box-sizing: border-box;
+        }
+
+        .style-99 {
+            color: rgb(19, 19, 38);
+            margin-bottom: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-100 {
+            color: rgb(19, 19, 38);
+            margin-bottom: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-101 {
+            color: rgb(19, 19, 38);
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-102 {
+            display: block;
+            overflow-x: auto;
+            background: #2b2b2b;
+            color: #f8f8f2;
+            padding: 0.5emborder-radius:9px;
+            margin: 0px 10px 10px;
+            box-sizing: border-box;
+            font-family: monospace;
+            font-size: 14px;
+            overflow: auto;
+        }
+
+        .style-103 {
+            white-space: preall: inherit;
+            box-sizing: border-box;
+            font-family: monospace;
+            font-size: 14px;
+        }
+
+        .style-104 {
+            color: #dcc6e0box-sizing:border-box;
+        }
+
+        .style-105 {
+            box-sizing: border-box;
+        }
+
+        .style-106 {
+            box-sizing: border-box;
+        }
+
+        .style-107 {
+            color: #abe338box-sizing:border-box;
+        }
+
+        .style-108 {
+            box-sizing: border-box;
+        }
+
+        .style-109 {
+            box-sizing: border-box;
+        }
+
+        .style-110 {
+            color: #abe338box-sizing:border-box;
+        }
+
+        .style-111 {
+            box-sizing: border-box;
+        }
+
+        .style-112 {
+            box-sizing: border-box;
+        }
+
+        .style-113 {
+            color: #abe338box-sizing:border-box;
+        }
+
+        .style-114 {
+            box-sizing: border-box;
+        }
+
+        .style-115 {
+            box-sizing: border-box;
+        }
+
+        .style-116 {
+            color: #abe338box-sizing:border-box;
+        }
+
+        .style-117 {
+            box-sizing: border-box;
+        }
+
+        .style-118 {
+            box-sizing: border-box;
+        }
+
+        .style-119 {
+            color: #f5ab35box-sizing:border-box;
+        }
+
+        .style-120 {
+            box-sizing: border-box;
+        }
+
+        .style-121 {
+            box-sizing: border-box;
+        }
+
+        .style-122 {
+            color: #dcc6e0box-sizing:border-box;
+        }
+
+        .style-123 {
+            box-sizing: border-box;
+        }
+
+        .style-124 {
+            color: #abe338box-sizing:border-box;
+        }
+
+        .style-125 {
+            box-sizing: border-box;
+        }
+
+        .style-126 {
+            color: #dcc6e0box-sizing:border-box;
+        }
+
+        .style-127 {
+            box-sizing: border-box;
+        }
+
+        .style-128 {
+            box-sizing: border-box;
+        }
+
+        .style-129 {
+            color: #abe338box-sizing:border-box;
+        }
+
+        .style-130 {
+            box-sizing: border-box;
+        }
+
+        .style-131 {
+            box-sizing: border-box;
+        }
+
+        .style-132 {
+            color: #abe338box-sizing:border-box;
+        }
+
+        .style-133 {
+            box-sizing: border-box;
+        }
+
+        .style-134 {
+            box-sizing: border-box;
+        }
+
+        .style-135 {
+            color: #dcc6e0box-sizing:border-box;
+        }
+
+        .style-136 {
+            box-sizing: border-box;
+        }
+
+        .style-137 {
+            color: #abe338box-sizing:border-box;
+        }
+
+        .style-138 {
+            box-sizing: border-box;
+        }
+
+        .style-139 {
+            box-sizing: border-box;
+        }
+
+        .style-140 {
+            color: #abe338box-sizing:border-box;
+        }
+
+        .style-141 {
+            box-sizing: border-box;
+        }
+
+        .style-142 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-143 {
+            font-size: 16px;
+            width: auto;
+            max-width: 10%;
+            height: auto;
+            max-height: 10%;
+            margin-left: 5px;
+            vertical-align: middle;
+            display: block;
+            box-sizing: border-box;
+            border: 0px none rgb(34, 34, 34);
+        }
+
+        .style-144 {
+            color: rgb(34, 34, 34);
+            font-family: Inter, sans-serif;
+            font-size: 19.2px;
+            margin-left: 10px;
+            margin-top: 10px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-145 {
+            color: rgb(19, 19, 38);
+            margin-top: 0px;
+            margin-bottom: 10px;
+            padding-left: 40px;
+            box-sizing: border-box;
+        }
+
+        .style-146 {
+            margin-bottom: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-147 {
+            margin-bottom: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-148 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-149 {
+            color: rgb(245, 245, 245);
+            max-width: 90%;
+            margin-left: 20px;
+            margin-right: 40px;
+            vertical-align: middle;
+            display: block;
+            box-sizing: border-box;
+            border: 0px none rgb(245, 245, 245);
+        }
+
+        .style-150 {
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-151 {
+            font-family: Inter, sans-serif;
+            font-size: 35.2px;
+            text-align: center;
+            margin-bottom: 60px;
+            color: rgb(34, 34, 34);
+            margin-top: 20px;
+            font-weight: 700;
+            line-height: 46px;
+            box-sizing: border-box;
+        }
+
+        .style-152 {
+            margin-left: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-153 {
+            grid-template-rows: auto;
+            grid-template-columns: 599.5px 599.5px;
+            column-gap: 0px;
+            gap: 20px 0px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-154 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-155 {
+            margin-top: 0px;
+            margin-bottom: 10px;
+            padding-left: 40px;
+            box-sizing: border-box;
+        }
+
+        .style-156 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-157 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-158 {
+            font-size: 14.4px;
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-159 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-160 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-161 {
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-162 {
+            background-color: rgb(3, 87, 175);
+            font-size: 16px;
+            border-radius: 9px;
+            color: rgb(255, 255, 255);
+            line-height: 20px;
+            cursor: pointer;
+            border: 0px none rgb(255, 255, 255);
+            padding: 9px 15px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: block;
+            box-sizing: border-box;
+        }
+
+        .style-163 {
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-164 {
+            font-family: Inter, sans-serif;
+            font-size: 35.2px;
+            text-align: center;
+            color: rgb(34, 34, 34);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            line-height: 46px;
+            box-sizing: border-box;
+        }
+
+        .style-165 {
+            color: rgba(86, 96, 115, 0.7);
+            text-align: center;
+            font-family: Inter, sans-serif;
+            font-size: 19.2px;
+            font-weight: 700;
+            margin-top: 10px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .style-166 {
+            background-color: rgb(242, 113, 8);
+            text-align: center;
+            vertical-align: baseline;
+            object-fit: fill;
+            border-radius: 9px;
+            justify-content: center;
+            align-items: center;
+            max-width: 300px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 19.2px;
+            font-weight: 700;
+            display: flex;
+            position: static;
+            color: rgb(255, 255, 255);
+            line-height: 20px;
+            cursor: pointer;
+            border: 0px none rgb(255, 255, 255);
+            padding: 20px 15px;
+            text-decoration: none solid rgb(255, 255, 255);
+            box-sizing: border-box;
+        }
+
+        .style-167 {
+            background-color: rgb(251, 253, 251);
+            color: rgb(251, 253, 251);
+            border-bottom: 1px solid rgb(228, 235, 243);
+            margin-top: 0px;
+            padding: 10px 10px 0px 20px;
+            font-family: Calibri, sans-serif;
+            position: relative;
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-168 {
+            border-top: 1px solid rgb(93, 90, 90);
+            border-bottom: 1px solid rgb(90, 88, 88);
+            width: 100%;
+            max-width: none;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+        }
+
+        .style-169 {
+            column-gap: 68px;
+            color: rgb(242, 113, 8);
+            box-sizing: border-box;
+        }
+
+        .style-170 {
+            grid-template-rows: auto;
+            grid-template-columns: 229.797px 919.203px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 0px 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-171 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-172 {
+            margin-right: 20px;
+            text-decoration: none solid rgb(0, 0, 238);
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-173 {
+            color: rgb(255, 255, 255);
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+            background-color: rgb(30, 64, 175);
+            background-image: linear-gradient(135deg, rgb(0, 80, 157), rgb(0, 136, 237) 95%, rgb(59, 130, 246) 100%, rgb(0, 218, 217) 100%, rgb(59, 130, 246) 100%, rgb(0, 220, 217) 100%, rgb(0, 207, 220) 100%, rgb(0, 193, 223) 100%, rgb(0, 181, 226) 100%, rgb(59, 130, 246) 100%, rgb(247, 251, 254) 100%, rgb(255, 255, 255));
+            -webkit-background-clip: text;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: block;
+            font-weight: 700;
+            line-height: 40px;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        .style-174 {
+            color: rgb(123, 137, 151);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .style-175 {
+            color: rgb(34, 34, 34);
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-176 {
+            color: rgb(255, 255, 255);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 16px;
+            box-sizing: border-box;
+        }
+
+        .style-177 {
+            color: rgb(34, 34, 34);
+            margin-top: 12px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            line-height: 16px;
+            text-decoration: none solid rgb(34, 34, 34);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-178 {
+            color: rgb(34, 34, 34);
+            margin-top: 12px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            line-height: 16px;
+            text-decoration: none solid rgb(34, 34, 34);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-179 {
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 12px;
+            margin-left: -12px;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-180 {
+            margin-left: 12px;
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-181 {
+            vertical-align: middle;
+            max-width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 0px none rgb(0, 0, 238);
+        }
+
+        .style-182 {
+            margin-left: 12px;
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-183 {
+            vertical-align: middle;
+            max-width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 0px none rgb(0, 0, 238);
+        }
+
+        .style-184 {
+            margin-left: 12px;
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-185 {
+            vertical-align: middle;
+            max-width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 0px none rgb(0, 0, 238);
+        }
+
+        .style-186 {
+            color: rgb(19, 19, 38);
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-187 {
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns: 157.875px 157.875px 157.875px;
+            color: rgb(19, 19, 38);
+            margin-top: 20px;
+            margin-left: 40px;
+            padding-left: 0px;
+            padding-right: 0px;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 20px 0px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-188 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-189 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-190 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-191 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-192 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-193 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-194 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-195 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-196 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-197 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-198 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-199 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-200 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-201 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-202 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-203 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-204 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-205 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-206 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-207 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-208 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-209 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-210 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-211 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-212 {
+            font-family: Inter, sans-serif;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-213 {
+            font-family: Inter, sans-serif;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-214 {
+            color: rgb(19, 19, 38);
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-215 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-216 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-217 {
+            background-color: rgb(228, 235, 243);
+            width: 100%;
+            height: 1px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body class="style-0">
+    <section class="style-1">
+        <div data-animation="default" data-collapse="tiny" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="style-2">
+            <div class="style-3"><a href="/" aria-current="page" class="style-4" aria-label="home">
+                    <h1 class="style-5">Datazag</h1>
+                </a>
+                <nav role="navigation" class="style-6">
+                    <ul role="list" class="style-7">
+                        <li class="style-8">
+                            <div data-hover="true" data-delay="0" class="style-9">
+                                <div class="style-10" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                                    <div class="style-11" aria-hidden="true"></div>
+                                    <div class="style-12">Solutions</div>
+                                </div>
+                                <nav class="style-13" aria-labelledby="w-dropdown-toggle-0"><a href="/kyc" class="style-14" tabindex="0">KYC/Fraud Prevention</a><a href="/email-verification-list-cleaning" class="style-15" tabindex="0">Email Verification &amp; List Cleaning</a><a href="/log-analytics-threat-intelligence" class="style-16" tabindex="0">Log Analytics &amp; SIEM Enrichment</a></nav>
+                            </div>
+                        </li>
+                        <li class="style-17">
+                            <div data-hover="true" data-delay="0" class="style-18">
+                                <div class="style-19" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                                    <div class="style-20" aria-hidden="true"></div>
+                                    <div class="style-21">Developer</div>
+                                </div>
+                                <nav class="style-22" aria-labelledby="w-dropdown-toggle-1"><a href="/developers" class="style-23" tabindex="0">API Documentation</a><a href="#" class="style-24" tabindex="0">Cloud Marketplaces</a></nav>
+                            </div>
+                        </li>
+                        <li class="style-25"><a href="/pricing" class="style-26">Pricing</a></li>
+                        <li class="style-27"><a href="/about-new" class="style-28">Company</a></li>
+                        <li class="style-29">
+                            <div class="style-30"></div>
+                        </li>
+                        <li class="style-31"><a href="https://client.datazag.com" class="style-32">Start for free</a><a href="https://client.datazag.com" class="style-33">LOG IN</a></li>
+                    </ul>
+                </nav>
+                <div class="style-34" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+                    <div class="style-35"></div>
+                </div>
+            </div>
+            <div class="style-36" data-wf-ignore=""></div>
+        </div>
+    </section>
+    <section class="style-37">
+        <div class="style-38">
+            <div class="style-39">
+                <h1 class="style-40"><strong class="style-41">The Domain Intelligence Layer <br class="style-42" />for Modern Trust &amp; Safety</strong></h1>
+            </div>
+            <div class="style-43">
+                <div class="style-44"><strong class="style-45">Prevent fraud. Verify users. Power your logs. <br class="style-46" />All with real-time domain intelligence—delivered via API or live in your cloud stack.</strong></div>
+            </div>
+            <div class="style-47"><a href="/contact-us" class="style-48">Get Free API Key</a><a href="/contact-us" class="style-49">Explore Data Shares</a></div>
+            <div class="style-50"></div>
+        </div>
+    </section>
+    <section class="style-51">
+        <h3 class="style-52">Check out our data</h3>
+        <div class="style-53">
+            <div class="style-54">
+                <form name="email-form-2" data-name="Email Form 2" method="get" class="style-55" data-wf-page-id="6867e4b68ca1747785ea0a9f" data-wf-element-id="6c179575-09e2-383b-d808-14d72fa693e8" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e" aria-label="Email Form 2"><input class="style-56" maxlength="256" name="name2" data-name="name2" placeholder="Enter a domain name" type="text" required="" /><input type="submit" data-wait="Please wait..." class="style-57" value="Search" />
+                    <div class="style-58">
+                        <div class="style-59"><input type="hidden" name="cf-turnstile-response" value="0.KZxWOefNg6Zws6tlLHoxOwWpxPCe09F09RUMQqgNzUPG7mgEl_49GlcSfu7xUGPb4TL9DInc-yu5drJBshmeaGkh53VYZMeytzRIFSmA0AFMr4TRPPKrNW9QJbzb6KUPrTggplBjfQlYny0V3OKjwgs2wpzMIuybcNITXazTyoDoCDVBRlGc7oRMUyD0q9czw_07tI3yUVRsDKZN5VIfj0RzG-tKN5fYRxrc9WThc0Jz4KcTRf113SCuq7GRdhlNzMq6iOGt2l1lmaprtUK-Aj-Oi1yFC3a9ua8K6hoh8Pu_3oGiQFbL6yvptIVcMNRe12sRMnstGHQNNGq9QbCzCFrUqI9OLPVJstoUdM-lnArw4025OcKfWKUmf-QstedW2_0aJWD4I3SAsHSFLlqpkcUzPlVAny_3LdNoh3SMuXM58vEG9lsTT4IVicBT8w8JXjbUhAFBnn534aoKKSqKoMVcB5aPELAh9OS_BcUfFOrU84BSonAm3uBWqCDxN5isVMIsS56QJpiQxsXdP9rGcHI8jH0B7jOvDR_UMybS6L697NMepT6WZUImDjirjyPev2gCLVVakuym7m6AbgRvi6Cz0JaUoYGRGY4mjTP5v_nAO3WcjrPKdAxd7jQ40_zq7_1dfjNV7KU3H00i_rBQ1J67tend24F5H0xgA1a8RuGygxM81eIY-yqua7WaPt7NVoqfo4yuVXHgVi67YDPsYV8Xl6zUCkvtiIec9pRcM2NvZ5soFnFCMtAkc7qkxmZY1_jmiUZ-x7ghCz_dC_QhOJYtCkei7iiaWM4WhbJuSfYsuPphWb-sSU0Qwf45JbyIyVyb8KrCn6A7skLJwWnXoMNfEp4qpqZ7rM5WD9dfeKv4BG0YRFwqoWfXrga27aR0-c4s-M3u59OA0MbX-yUiprvDBgF_LS-Kj7wGAQWRYunzl5qfHHML5lzIojNeE7On.P7fhLVbUvHqylV6fSUY0lw.2512840343dea73d1c71a9b3ab8823e680a542095de448d5267acb7ae1d3c4b1" class="style-60" /></div>
+                    </div>
+                </form>
+                <div class="style-61" tabindex="-1" role="region" aria-label="Email Form 2 success">
+                    <div class="style-62">
+                        <div class="style-63">Thank you! Your submission has been received!</div>
+                    </div>
+                </div>
+                <div class="style-64" tabindex="-1" role="region" aria-label="Email Form 2 failure">
+                    <div class="style-65">
+                        <div class="style-66">Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="style-67">
+        <h3 class="style-68"><strong class="style-69">Power Your Most Critical &nbsp;Workflows</strong></h3>
+        <div class="style-70">
+            <div class="style-71"><img src="https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686b99e3f9cbf20b72e43ec7_detect.png" loading="lazy" alt="" class="style-72" />
+                <div class="style-73">
+                    <h4 class="style-74">Fraud/Threat Detection</h4>
+                    <p class="style-75">Prioritise IOCs: “domain registered 3 days ago, tagged phishing → escalate”</p>
+                </div>
+            </div>
+            <div class="style-76"><img src="https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686b993112848a1ede984663_email2.png" loading="lazy" alt="" class="style-77" />
+                <div class="style-78">
+                    <h4 class="style-79">Email Deliverability</h4>
+                    <p class="style-80">Strip parked or disposable domains, analyse mailbox‑provider mix, boost inbox rates.</p>
+                </div>
+            </div>
+            <div class="style-81">
+                <div class="style-82"><img src="https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686b9348263dce9600752448_shield.png" loading="lazy" alt="" class="style-83" />
+                    <h4 class="style-84">Lead Verification/KYC</h4>
+                    <p class="style-85">Remove junk traffic and fake sign‑ups by scoring domains at ingest.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="style-86">
+        <div class="style-87">
+            <h3 class="style-88">Fresh Intelligence That Delivers <br class="style-89" />Answers, Not Just Data</h3>
+            <p class="style-90">Other services provide raw data dumps that your analysts have to spend hours interpreting. Datazag is different. We process billions of real-time signals from across the internet—newly registered domains, DNS changes, and Phishing/Malware data, plus classifications such as mailbox provider, mail hygiene such as SPF, DMARC&nbsp;and BIMI&nbsp;records —and transform that complexity into clear, actionable answers for your specific use case.</p><img src="https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686cf03efd095c83e6b15b94_DZ_Value_creation.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px" srcset="https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686cf03efd095c83e6b15b94_DZ_Value_creation-p-500.png 500w, https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686cf03efd095c83e6b15b94_DZ_Value_creation-p-800.png 800w, https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686cf03efd095c83e6b15b94_DZ_Value_creation-p-1080.png 1080w, https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686cf03efd095c83e6b15b94_DZ_Value_creation.png 1536w" alt="" class="style-91" />
+        </div>
+    </section>
+    <section class="style-92">
+        <h1 class="style-93">Get Data Your Way. Instantly</h1>
+        <div class="style-94">
+            <div class="style-95"><img src="https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686b9006b70fc28bcf05661f_code2.png" loading="lazy" alt="" class="style-96" />
+                <h5 class="style-97">For Developers and Applications</h5>
+                <ul role="list" class="style-98">
+                    <li class="style-99">Integrate real-time intelligence directly into your applications.</li>
+                    <li class="style-100">REST APIs&nbsp;&nbsp;built for speed and scale, with transparent, usage-based pricing. </li>
+                    <li class="style-101">APIs available for email verification, DNS Lookups and bulk data cleaning. </li>
+                </ul>
+                <pre contenteditable="false" class="style-102"><code class="style-103"><span class="style-104">import</span><span class="style-105"> requests
+</span> <span class="style-106">API_KEY = </span><span class="style-107">"api_key"</span><span class="style-108">
+</span><span class="style-109">BASE_URL = </span><span class="style-110">"https://api.datazag.com"</span><span class="style-111"> 
+</span>
+def get_domain(domain):
+<span class="style-112">    url = f</span><span class="style-113">"{BASE_URL}/data/{domain}"</span><span class="style-114">
+</span><span class="style-115">    headers = {</span><span class="style-116">"X-API-Key"</span><span class="style-117">: API_KEY}
+</span><span class="style-118">    resp = requests.get(url, headers=headers, timeout=</span><span class="style-119">10</span><span class="style-120">)
+</span>    resp.raise_for_status()
+    data = resp.json()
+<span class="style-121">    </span><span class="style-122">if</span><span class="style-123"> </span><span class="style-124">"domain"</span><span class="style-125"> not </span><span class="style-126">in</span><span class="style-127"> data:
+</span><span class="style-128">        raise ValueError(f</span><span class="style-129">"Invalid response schema: {data}"</span><span class="style-130">)
+</span><span class="style-131">    print(f</span><span class="style-132">"✅ /data/{domain} succeeded."</span><span class="style-133">)
+</span> <span class="style-134"></span><span class="style-135">if</span><span class="style-136"> __name__ == </span><span class="style-137">"__main__"</span><span class="style-138">:
+</span><span class="style-139">    get_domain(</span><span class="style-140">"datazag.com"</span><span class="style-141">)</span></code></pre>
+            </div>
+            <div class="style-142"><img src="https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686b8fec09dca3375fb4a847_Cloud2.png" loading="lazy" alt="" class="style-143" />
+                <h5 class="style-144">For Data and Analytic teams</h5>
+                <ul role="list" class="style-145">
+                    <li class="style-146">Access our complete dataset live in your cloud data platform. </li>
+                    <li class="style-147">No ETL, no pipelines just plug in our Data Share service. </li>
+                    <li class="style-148">Query our our complete dataset alongside your own data in AWS, Azure, Google Cloud plus Snowflake or Databricks.</li>
+                </ul><img src="https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686cc29c39d48045c0666cd9_datazag_cloudshare_diagram_transparent.png" loading="lazy" sizes="(max-width: 1536px) 100vw, 1536px" srcset="https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686cc29c39d48045c0666cd9_datazag_cloudshare_diagram_transparent-p-500.png 500w, https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686cc29c39d48045c0666cd9_datazag_cloudshare_diagram_transparent-p-800.png 800w, https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686cc29c39d48045c0666cd9_datazag_cloudshare_diagram_transparent-p-1080.png 1080w, https://cdn.prod.website-files.com/607ec6bb413614271128eda2/686cc29c39d48045c0666cd9_datazag_cloudshare_diagram_transparent.png 1536w" alt="" class="style-149" />
+            </div>
+        </div>
+    </section>
+    <section class="style-150">
+        <h3 class="style-151">Easy to Deploy Intelligence</h3>
+        <div class="style-152">From our free developer plan to enterprise-grade data shares, we have a plan that fits your needs. No hidden fees, no opaque contracts</div>
+        <div class="style-153">
+            <div class="style-154">
+                <ul role="list" class="style-155">
+                    <li class="style-156">Free developer &amp; academic plans available.</li>
+                    <li class="style-157">Paid API plans starting from $79/month</li>
+                    <li class="style-158">Live Cloud Shares for enterprise teams.</li>
+                    <li class="style-159">Easy to buy - no sales gated procurement cycles</li>
+                    <li class="style-160">Immediate access</li>
+                </ul>
+            </div>
+            <div class="style-161"><a href="#" class="style-162">View Plans &amp; Pricing</a></div>
+        </div>
+    </section>
+    <section class="style-163">
+        <h3 class="style-164">Start Building Trust, Not Pipelines</h3>
+        <h4 class="style-165">Get the real-time intelligence you need to fight fraud and verify users now</h4><a href="#" class="style-166">Create Your Free Account</a>
+    </section>
+    <section class="style-167">
+        <div class="style-168">
+            <div class="style-169">
+                <div class="style-170">
+                    <div class="style-171"><a href="#" class="style-172">
+                            <h1 class="style-173">Datazag</h1>
+                        </a>
+                        <div class="style-174">© 2025 Datazag Ltd. All rights reserved.</div>
+                        <div class="style-175">
+                            <div class="style-176">Contact us</div><a href="https://outlook.office365.com/owa/calendar/ScheduleaChat1@datazag.com/bookings/" target="_blank" class="style-177">Schedule a Chat</a><a href="#" class="style-178">info@datazag.com</a>
+                            <div class="style-179"><a href="#" class="style-180"><img src="https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124ac15112aad5_twitter%20small.svg" loading="lazy" alt="" class="style-181" /></a><a href="#" class="style-182"><img src="https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124a389912aad8_linkedin%20small.svg" loading="lazy" alt="" class="style-183" /></a><a href="#" class="style-184"><img src="https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124a51bf12aae9_facebook%20small.svg" loading="lazy" alt="" class="style-185" /></a></div>
+                        </div>
+                    </div>
+                    <div class="style-186">
+                        <div class="style-187">
+                            <div class="style-188">
+                                <div class="style-189">Solutions</div>
+                            </div>
+                            <div class="style-190">
+                                <div class="style-191">Developers</div>
+                            </div>
+                            <div class="style-192">
+                                <div class="style-193">Company</div>
+                            </div>
+                            <div class="style-194"><a href="#" class="style-195">KYC &amp; Fraud Prevention</a></div>
+                            <div class="style-196"><a href="#" class="style-197">API Documentation</a></div>
+                            <div class="style-198"><a href="#" class="style-199">About&nbsp;&nbsp;Us</a></div>
+                            <div class="style-200"><a href="#" class="style-201">Email Verification</a></div>
+                            <div class="style-202"><a href="#" class="style-203">Cloud Marketplaces</a></div>
+                            <div class="style-204"><a href="#" class="style-205">Contact</a></div>
+                            <div class="style-206"><a href="#" class="style-207">Log Analytics</a></div>
+                            <div class="style-208"><a href="#" class="style-209">Status</a></div>
+                            <div class="style-210"><a href="/t-cs" class="style-211">Terms of Service</a></div>
+                            <div class="style-212"></div>
+                            <div class="style-213"><a href="/blog" class="style-214">Blog</a></div>
+                            <div class="style-215"><a href="/privacy" class="style-216">Privacy Policy</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="style-217"></div>
+        </div>
+    </section>
+</body>
+
+</html>

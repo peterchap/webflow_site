@@ -1,0 +1,7 @@
+Domain Search Notes
+
+There is a a domain search bar on the home page.  THe user enters a domain name and is redirected to the domain-search page where the results are presented. The user can do further searches on the domain-search page.
+
+The data presented is gatherred via an API to Datazag's main table of domains.
+
+In the webflow site there are Javascript custom code that handles home page and domain search page presentation. THese are included in the two JS files.

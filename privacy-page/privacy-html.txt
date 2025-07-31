@@ -1,0 +1,1302 @@
+<html>
+
+<head>
+    <style>
+        .style-0 {
+            cursor: auto;
+            color: rgb(51, 51, 51);
+            font-family: Circularstd, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            background-color: rgb(255, 255, 255);
+            min-height: 100%;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-1 {
+            z-index: 5;
+            border-style: solid;
+            border-width: 0px 0px 1px;
+            border-color: rgba(86, 96, 115, 0.7);
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            max-width: 1520px;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 0px 20px 20px;
+            font-family: Inter, sans-serif;
+            font-weight: 700;
+            background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-2 {
+            border-style: none;
+            border-width: 0px;
+            border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(245, 245, 245);
+            background-color: rgb(251, 253, 251);
+            color: rgb(251, 253, 251);
+            border-radius: 0px;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-3 {
+            color: rgb(243, 236, 236);
+            float: left;
+            text-decoration: none solid rgb(243, 236, 236);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-4 {
+            color: rgb(255, 255, 255);
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+            background-color: rgb(30, 64, 175);
+            background-image: linear-gradient(135deg, rgb(0, 80, 157), rgb(0, 136, 237) 95%, rgb(59, 130, 246) 100%, rgb(0, 218, 217) 100%, rgb(59, 130, 246) 100%, rgb(0, 220, 217) 100%, rgb(0, 207, 220) 100%, rgb(0, 193, 223) 100%, rgb(0, 181, 226) 100%, rgb(59, 130, 246) 100%, rgb(247, 251, 254) 100%, rgb(255, 255, 255));
+            -webkit-background-clip: text;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: block;
+            font-weight: 700;
+            line-height: 40px;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        .style-5 {
+            margin-right: 10px;
+            float: right;
+            position: relative;
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-6 {
+            color: rgb(34, 34, 34);
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0px;
+            display: flex;
+            padding-left: 0px;
+            list-style: outside none none;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-7 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-8 {
+            text-align: left;
+            z-index: 900;
+            margin-left: auto;
+            margin-right: auto;
+            display: inline-block;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-9 {
+            font-family: Inter, sans-serif;
+            user-select: none;
+            cursor: pointer;
+            padding-right: 40px;
+            display: inline-block;
+            vertical-align: top;
+            color: rgb(34, 34, 34);
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 40px 20px 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-10 {
+            font-family: webflow-icons;
+            font-size: 16px;
+            width: 1em;
+            height: 16px;
+            margin: auto 20px auto auto;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            box-sizing: border-box;
+            speak: none;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+        }
+
+        .style-11 {
+            letter-spacing: 2px;
+            font-family: Inter, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-12 {
+            background: rgb(221, 221, 221) none repeat scroll 0% 0% / auto padding-box border-box;
+            min-width: 100%;
+            display: none;
+            position: absolute;
+            box-sizing: border-box;
+        }
+
+        .style-13 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-14 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-15 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-16 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-17 {
+            text-align: left;
+            z-index: 900;
+            margin-left: auto;
+            margin-right: auto;
+            display: inline-block;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-18 {
+            letter-spacing: normal;
+            font-family: Inter, sans-serif;
+            user-select: none;
+            cursor: pointer;
+            padding-right: 40px;
+            display: inline-block;
+            vertical-align: top;
+            color: rgb(34, 34, 34);
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 40px 20px 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-19 {
+            font-family: webflow-icons;
+            font-size: 16px;
+            width: 1em;
+            height: 16px;
+            margin: auto 20px auto auto;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            box-sizing: border-box;
+            speak: none;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+        }
+
+        .style-20 {
+            letter-spacing: 2px;
+            font-family: Inter, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-21 {
+            background: rgb(221, 221, 221) none repeat scroll 0% 0% / auto padding-box border-box;
+            min-width: 100%;
+            display: none;
+            position: absolute;
+            box-sizing: border-box;
+        }
+
+        .style-22 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-23 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-24 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-25 {
+            color: rgb(34, 34, 34);
+            text-align: center;
+            letter-spacing: 2px;
+            overflow-wrap: break-word;
+            mix-blend-mode: normal;
+            align-items: center;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 5px 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            display: inline-flex;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-26 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-27 {
+            color: rgb(34, 34, 34);
+            text-align: center;
+            letter-spacing: 2px;
+            overflow-wrap: break-word;
+            mix-blend-mode: normal;
+            align-items: center;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 5px 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            display: inline-flex;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-28 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-29 {
+            background-color: rgb(228, 235, 243);
+            width: 1px;
+            height: 22px;
+            margin-left: 15px;
+            margin-right: 15px;
+            box-sizing: border-box;
+        }
+
+        .style-30 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-31 {
+            background-color: rgb(242, 113, 8);
+            color: rgb(255, 255, 255);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 12px 25px;
+            font-size: 12px;
+            line-height: 20px;
+            transition: 0.2s;
+            cursor: pointer;
+            border: 0px none rgb(255, 255, 255);
+            border-radius: 0px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        .style-32 {
+            background-color: rgb(3, 87, 175);
+            color: rgb(255, 255, 255);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-left: 10px;
+            padding: 12px 10px;
+            font-family: Inter, sans-serif;
+            font-size: 12px;
+            line-height: 20px;
+            transition: 0.2s;
+            cursor: pointer;
+            border: 0px none rgb(255, 255, 255);
+            border-radius: 0px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        .style-33 {
+            -webkit-user-select: text;
+            float: right;
+            cursor: pointer;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            user-select: text;
+            padding: 18px;
+            font-size: 24px;
+            display: none;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-34 {
+            box-sizing: border-box;
+            speak: none;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            font-family: webflow-icons;
+        }
+
+        .style-35 {
+            width: 100%;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0px;
+            right: 0px;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .style-36 {
+            box-sizing: border-box;
+        }
+
+        .style-37 {
+            margin-top: 20px;
+            max-width: 940px;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+        }
+
+        .style-38 {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-family: Circularstd, sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+            color: rgb(34, 34, 34);
+            line-height: 30px;
+            box-sizing: border-box;
+            margin: 20px 0px;
+        }
+
+        .style-39 {
+            max-width: 940px;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+        }
+
+        .style-40 {
+            box-sizing: border-box;
+        }
+
+        .style-41 {
+            box-sizing: border-box;
+        }
+
+        .style-42 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-43 {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-44 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-45 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-46 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-47 {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-48 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-49 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-50 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-51 {
+            overflow: hidden;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            padding-left: 40px;
+            box-sizing: border-box;
+        }
+
+        .style-52 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-53 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-54 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-55 {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-56 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-57 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-58 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-59 {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-60 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-61 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-62 {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-63 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-64 {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-65 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-66 {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-67 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-68 {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-69 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-70 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-71 {
+            margin-bottom: 10px;
+            font-family: Calibri, sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-72 {
+            color: rgb(34, 34, 34);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-family: Roboto, sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 48px;
+            position: static;
+            box-sizing: border-box;
+        }
+
+        .style-73 {
+            background-color: rgb(251, 253, 251);
+            color: rgb(251, 253, 251);
+            border-bottom: 1px solid rgb(228, 235, 243);
+            margin-top: 0px;
+            padding: 10px 10px 0px 20px;
+            font-family: Calibri, sans-serif;
+            position: relative;
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-74 {
+            border-top: 1px solid rgb(93, 90, 90);
+            border-bottom: 1px solid rgb(90, 88, 88);
+            width: 100%;
+            max-width: none;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+        }
+
+        .style-75 {
+            column-gap: 68px;
+            color: rgb(242, 113, 8);
+            box-sizing: border-box;
+        }
+
+        .style-76 {
+            grid-template-rows: auto;
+            grid-template-columns: 229.797px 919.203px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 0px 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-77 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-78 {
+            margin-right: 20px;
+            text-decoration: none solid rgb(0, 0, 238);
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-79 {
+            color: rgb(255, 255, 255);
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+            background-color: rgb(30, 64, 175);
+            background-image: linear-gradient(135deg, rgb(0, 80, 157), rgb(0, 136, 237) 95%, rgb(59, 130, 246) 100%, rgb(0, 218, 217) 100%, rgb(59, 130, 246) 100%, rgb(0, 220, 217) 100%, rgb(0, 207, 220) 100%, rgb(0, 193, 223) 100%, rgb(0, 181, 226) 100%, rgb(59, 130, 246) 100%, rgb(247, 251, 254) 100%, rgb(255, 255, 255));
+            -webkit-background-clip: text;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: block;
+            font-weight: 700;
+            line-height: 40px;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        .style-80 {
+            color: rgb(123, 137, 151);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .style-81 {
+            color: rgb(34, 34, 34);
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-82 {
+            color: rgb(255, 255, 255);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 16px;
+            box-sizing: border-box;
+        }
+
+        .style-83 {
+            color: rgb(34, 34, 34);
+            margin-top: 12px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            line-height: 16px;
+            text-decoration: none solid rgb(34, 34, 34);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-84 {
+            color: rgb(34, 34, 34);
+            margin-top: 12px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            line-height: 16px;
+            text-decoration: none solid rgb(34, 34, 34);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-85 {
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 12px;
+            margin-left: -12px;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-86 {
+            margin-left: 12px;
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-87 {
+            vertical-align: middle;
+            max-width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 0px none rgb(0, 0, 238);
+        }
+
+        .style-88 {
+            margin-left: 12px;
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-89 {
+            vertical-align: middle;
+            max-width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 0px none rgb(0, 0, 238);
+        }
+
+        .style-90 {
+            margin-left: 12px;
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-91 {
+            vertical-align: middle;
+            max-width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 0px none rgb(0, 0, 238);
+        }
+
+        .style-92 {
+            color: rgb(19, 19, 38);
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-93 {
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns: 157.875px 157.875px 157.875px;
+            color: rgb(19, 19, 38);
+            margin-top: 20px;
+            margin-left: 40px;
+            padding-left: 0px;
+            padding-right: 0px;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 20px 0px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-94 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-95 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-96 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-97 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-98 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-99 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-100 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-101 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-102 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-103 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-104 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-105 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-106 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-107 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-108 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-109 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-110 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-111 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-112 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-113 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-114 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-115 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-116 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-117 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-118 {
+            font-family: Inter, sans-serif;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-119 {
+            font-family: Inter, sans-serif;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-120 {
+            color: rgb(19, 19, 38);
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-121 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-122 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-123 {
+            background-color: rgb(228, 235, 243);
+            width: 100%;
+            height: 1px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body class="style-0">
+    <div data-animation="default" data-collapse="tiny" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="style-1">
+        <div class="style-2"><a href="/" class="style-3" aria-label="home">
+                <h1 class="style-4">Datazag</h1>
+            </a>
+            <nav role="navigation" class="style-5">
+                <ul role="list" class="style-6">
+                    <li class="style-7">
+                        <div data-hover="true" data-delay="0" class="style-8">
+                            <div class="style-9" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                                <div class="style-10" aria-hidden="true"></div>
+                                <div class="style-11">Solutions</div>
+                            </div>
+                            <nav class="style-12" aria-labelledby="w-dropdown-toggle-0"><a href="/kyc" class="style-13" tabindex="0">KYC/Fraud Prevention</a><a href="/email-verification-list-cleaning" class="style-14" tabindex="0">Email Verification &amp; List Cleaning</a><a href="/log-analytics-threat-intelligence" class="style-15" tabindex="0">Log Analytics &amp; SIEM Enrichment</a></nav>
+                        </div>
+                    </li>
+                    <li class="style-16">
+                        <div data-hover="true" data-delay="0" class="style-17">
+                            <div class="style-18" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                                <div class="style-19" aria-hidden="true"></div>
+                                <div class="style-20">Developer</div>
+                            </div>
+                            <nav class="style-21" aria-labelledby="w-dropdown-toggle-1"><a href="/developers" class="style-22" tabindex="0">API Documentation</a><a href="#" class="style-23" tabindex="0">Cloud Marketplaces</a></nav>
+                        </div>
+                    </li>
+                    <li class="style-24"><a href="/pricing" class="style-25">Pricing</a></li>
+                    <li class="style-26"><a href="/about-new" class="style-27">Company</a></li>
+                    <li class="style-28">
+                        <div class="style-29"></div>
+                    </li>
+                    <li class="style-30"><a href="https://client.datazag.com" class="style-31">Start for free</a><a href="https://client.datazag.com" class="style-32">LOG IN</a></li>
+                </ul>
+            </nav>
+            <div class="style-33" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+                <div class="style-34"></div>
+            </div>
+        </div>
+        <div class="style-35" data-wf-ignore=""></div>
+    </div>
+    <div class="style-36">
+        <div class="style-37">
+            <h1 class="style-38">Privacy Policy</h1>
+        </div>
+        <div class="style-39">
+            <div class="style-40">
+                <div class="style-41">
+                    <p class="style-42">At&nbsp;Datazag, we collect and manage user data according to the following Privacy Policy.</p>
+                    <h4 class="style-43">Data Collected</h4>
+                    <p class="style-44">We collect information you provide directly to us. For example, wecollect information when you create an account, subscribe, participate in anyinteractive features of our services, fill out a form, request customer supportor otherwise communicate with us. The types of information we may collectinclude your name, email address, postal address, credit card information andother contact or identifying information you choose to provide.</p>
+                    <p class="style-45">We collect anonymous data from every visitor of the Website to monitor trafficand fix bugs. For example, we collect information like web requests, the datasent in response to such requests, the Internet Protocol address, the browsertype, the browser language, and a timestamp for the request.</p>
+                    <p class="style-46">We also use various technologies to collect information, and this mayinclude sending cookies to your computer. Cookies are small data files storedon your hard drive or in your device memory that helps us to improve ourservices and your experience, see which areas and features of our services arepopular and count visits. We may also collect information using web beacons(also known as "tracking pixels"). Web beacons are electronic imagesthat may be used in our services or emails and to track count visits orunderstand usage and campaign effectiveness. </p>
+                    <h4 class="style-47">Use of the Data</h4>
+                    <p class="style-48">We only use your personal information to provide you the&nbsp;Datazag&nbsp;servicesor to communicate with you about the Website or the services.</p>
+                    <p class="style-49">We employ industry standard techniques to protect against unauthorizedaccess of data about you that we store, including personal information.</p>
+                    <p class="style-50">We do not share personal information you have provided to us withoutyour consent, unless:</p>
+                    <ul role="list" class="style-51">
+                        <li class="style-52">Doing so is appropriate to carry out your own request.</li>
+                        <li class="style-53">We believe it's needed to enforce our legal agreements or that is legally required.</li>
+                        <li class="style-54">We believe it's needed to detect, prevent or address fraud, security or &nbsp; &nbsp; technical issues.</li>
+                    </ul>
+                    <h4 class="style-55">Sharing of Data</h4>
+                    <p class="style-56">We do not share your personal information with third parties.Aggregated, anonymized data is periodically transmitted to external services tohelp us improve the Website and service.</p>
+                    <p class="style-57">We may allow third parties to provide analytics services. These thirdparties may use cookies, web beacons and other technologies to collectinformation about your use of the services and other websites, including yourIP address, web browser, pages viewed, time spent on pages, links clicked andconversion information.</p>
+                    <p class="style-58">We also use social buttons provided by services like Twitter, Google+,LinkedIn and Facebook. Your use of these third-party services is entirelyoptional. We are not responsible for the privacy policies and/or practices ofthese third-party services, and you are responsible for reading andunderstanding those third-party services' privacy policies.</p>
+                    <h4 class="style-59">Cookies</h4>
+                    <p class="style-60">We may use cookies on our site to remember your preferences.</p>
+                    <p class="style-61">For more general information on cookies, please read&nbsp;"What Are Cookies".</p>
+                    <h4 class="style-62">Opt-Out, Communication Preferences</h4>
+                    <p class="style-63">You may modify your communication preferences and/or opt-out fromspecific communications at any time. Please specify and adjust yourpreferences.</p>
+                    <h4 class="style-64">Security</h4>
+                    <p class="style-65">We take reasonable steps to protect personally identifiable informationfrom loss, misuse, and unauthorized access, disclosure, alteration, ordestruction. But, you should keep in mind that no Internet transmission is evercompletely secure or error-free. In particular, email sent to or from the Sitesmay not be secure.</p>
+                    <h4 class="style-66">About Children</h4>
+                    <p class="style-67">The Website is not intended for children under the age of 13. We do notknowingly collect personally identifiable information via the Website from visitors in this age group.</p>
+                    <h4 class="style-68">Changes to the Privacy Policy</h4>
+                    <p class="style-69">We may amend this Privacy Policy from time to time. Use of informationwe collect now is subject to the Privacy Policy in effect at the time suchinformation is used.</p>
+                    <p class="style-70">If we make major changes in how we collect or use information, we willnotify you by posting an announcement on the Website or sending you an email.</p>
+                    <p class="style-71">&nbsp;</p>
+                    <h2 class="style-72">‍</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="style-73">
+        <div class="style-74">
+            <div class="style-75">
+                <div class="style-76">
+                    <div class="style-77"><a href="#" class="style-78">
+                            <h1 class="style-79">Datazag</h1>
+                        </a>
+                        <div class="style-80">© 2025 Datazag Ltd. All rights reserved.</div>
+                        <div class="style-81">
+                            <div class="style-82">Contact us</div><a href="https://outlook.office365.com/owa/calendar/ScheduleaChat1@datazag.com/bookings/" target="_blank" class="style-83">Schedule a Chat</a><a href="#" class="style-84">info@datazag.com</a>
+                            <div class="style-85"><a href="#" class="style-86"><img src="https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124ac15112aad5_twitter%20small.svg" loading="lazy" alt="" class="style-87" /></a><a href="#" class="style-88"><img src="https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124a389912aad8_linkedin%20small.svg" loading="lazy" alt="" class="style-89" /></a><a href="#" class="style-90"><img src="https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124a51bf12aae9_facebook%20small.svg" loading="lazy" alt="" class="style-91" /></a></div>
+                        </div>
+                    </div>
+                    <div class="style-92">
+                        <div class="style-93">
+                            <div class="style-94">
+                                <div class="style-95">Solutions</div>
+                            </div>
+                            <div class="style-96">
+                                <div class="style-97">Developers</div>
+                            </div>
+                            <div class="style-98">
+                                <div class="style-99">Company</div>
+                            </div>
+                            <div class="style-100"><a href="#" class="style-101">KYC &amp; Fraud Prevention</a></div>
+                            <div class="style-102"><a href="#" class="style-103">API Documentation</a></div>
+                            <div class="style-104"><a href="#" class="style-105">About&nbsp;&nbsp;Us</a></div>
+                            <div class="style-106"><a href="#" class="style-107">Email Verification</a></div>
+                            <div class="style-108"><a href="#" class="style-109">Cloud Marketplaces</a></div>
+                            <div class="style-110"><a href="#" class="style-111">Contact</a></div>
+                            <div class="style-112"><a href="#" class="style-113">Log Analytics</a></div>
+                            <div class="style-114"><a href="#" class="style-115">Status</a></div>
+                            <div class="style-116"><a href="/t-cs" class="style-117">Terms of Service</a></div>
+                            <div class="style-118"></div>
+                            <div class="style-119"><a href="/blog" class="style-120">Blog</a></div>
+                            <div class="style-121"><a href="/privacy" aria-current="page" class="style-122">Privacy Policy</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="style-123"></div>
+        </div>
+    </section>
+</body>
+
+</html>

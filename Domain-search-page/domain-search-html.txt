@@ -1,0 +1,3416 @@
+<html>
+
+<head>
+    <style>
+        .style-0 {
+            cursor: auto;
+            color: rgb(51, 51, 51);
+            font-family: Circularstd, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            background-color: rgb(255, 255, 255);
+            min-height: 100%;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-1 {
+            z-index: 5;
+            border-style: solid;
+            border-width: 0px 0px 1px;
+            border-color: rgba(86, 96, 115, 0.7);
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            max-width: 1520px;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 0px 20px 20px;
+            font-family: Inter, sans-serif;
+            font-weight: 700;
+            background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-2 {
+            border-style: none;
+            border-width: 0px;
+            border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(245, 245, 245);
+            background-color: rgb(251, 253, 251);
+            color: rgb(251, 253, 251);
+            border-radius: 0px;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-3 {
+            color: rgb(243, 236, 236);
+            float: left;
+            text-decoration: none solid rgb(243, 236, 236);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-4 {
+            color: rgb(255, 255, 255);
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+            background-color: rgb(30, 64, 175);
+            background-image: linear-gradient(135deg, rgb(0, 80, 157), rgb(0, 136, 237) 95%, rgb(59, 130, 246) 100%, rgb(0, 218, 217) 100%, rgb(59, 130, 246) 100%, rgb(0, 220, 217) 100%, rgb(0, 207, 220) 100%, rgb(0, 193, 223) 100%, rgb(0, 181, 226) 100%, rgb(59, 130, 246) 100%, rgb(247, 251, 254) 100%, rgb(255, 255, 255));
+            -webkit-background-clip: text;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: block;
+            font-weight: 700;
+            line-height: 40px;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        .style-5 {
+            margin-right: 10px;
+            float: right;
+            position: relative;
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-6 {
+            color: rgb(34, 34, 34);
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0px;
+            display: flex;
+            padding-left: 0px;
+            list-style: outside none none;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-7 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-8 {
+            text-align: left;
+            z-index: 900;
+            margin-left: auto;
+            margin-right: auto;
+            display: inline-block;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-9 {
+            font-family: Inter, sans-serif;
+            user-select: none;
+            cursor: pointer;
+            padding-right: 40px;
+            display: inline-block;
+            vertical-align: top;
+            color: rgb(34, 34, 34);
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 40px 20px 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-10 {
+            font-family: webflow-icons;
+            font-size: 16px;
+            width: 1em;
+            height: 16px;
+            margin: auto 20px auto auto;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            box-sizing: border-box;
+            speak: none;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+        }
+
+        .style-11 {
+            letter-spacing: 2px;
+            font-family: Inter, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-12 {
+            background: rgb(221, 221, 221) none repeat scroll 0% 0% / auto padding-box border-box;
+            min-width: 100%;
+            display: none;
+            position: absolute;
+            box-sizing: border-box;
+        }
+
+        .style-13 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-14 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-15 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-16 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-17 {
+            text-align: left;
+            z-index: 900;
+            margin-left: auto;
+            margin-right: auto;
+            display: inline-block;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-18 {
+            letter-spacing: normal;
+            font-family: Inter, sans-serif;
+            user-select: none;
+            cursor: pointer;
+            padding-right: 40px;
+            display: inline-block;
+            vertical-align: top;
+            color: rgb(34, 34, 34);
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 40px 20px 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-19 {
+            font-family: webflow-icons;
+            font-size: 16px;
+            width: 1em;
+            height: 16px;
+            margin: auto 20px auto auto;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            box-sizing: border-box;
+            speak: none;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+        }
+
+        .style-20 {
+            letter-spacing: 2px;
+            font-family: Inter, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-21 {
+            background: rgb(221, 221, 221) none repeat scroll 0% 0% / auto padding-box border-box;
+            min-width: 100%;
+            display: none;
+            position: absolute;
+            box-sizing: border-box;
+        }
+
+        .style-22 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-23 {
+            color: rgb(34, 34, 34);
+            padding: 10px 20px;
+            display: block;
+            vertical-align: top;
+            text-align: left;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none solid rgb(34, 34, 34);
+            position: relative;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-24 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-25 {
+            color: rgb(34, 34, 34);
+            text-align: center;
+            letter-spacing: 2px;
+            overflow-wrap: break-word;
+            mix-blend-mode: normal;
+            align-items: center;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 5px 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            display: inline-flex;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-26 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-27 {
+            color: rgb(34, 34, 34);
+            text-align: center;
+            letter-spacing: 2px;
+            overflow-wrap: break-word;
+            mix-blend-mode: normal;
+            align-items: center;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 5px 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            text-decoration: none solid rgb(34, 34, 34);
+            display: inline-flex;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-28 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-29 {
+            background-color: rgb(228, 235, 243);
+            width: 1px;
+            height: 22px;
+            margin-left: 15px;
+            margin-right: 15px;
+            box-sizing: border-box;
+        }
+
+        .style-30 {
+            font-family: Roboto, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .style-31 {
+            background-color: rgb(242, 113, 8);
+            color: rgb(255, 255, 255);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 12px 25px;
+            font-size: 12px;
+            line-height: 20px;
+            transition: 0.2s;
+            cursor: pointer;
+            border: 0px none rgb(255, 255, 255);
+            border-radius: 0px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        .style-32 {
+            background-color: rgb(3, 87, 175);
+            color: rgb(255, 255, 255);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-left: 10px;
+            padding: 12px 10px;
+            font-family: Inter, sans-serif;
+            font-size: 12px;
+            line-height: 20px;
+            transition: 0.2s;
+            cursor: pointer;
+            border: 0px none rgb(255, 255, 255);
+            border-radius: 0px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        .style-33 {
+            -webkit-user-select: text;
+            float: right;
+            cursor: pointer;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            user-select: text;
+            padding: 18px;
+            font-size: 24px;
+            display: none;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .style-34 {
+            box-sizing: border-box;
+            speak: none;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            font-family: webflow-icons;
+        }
+
+        .style-35 {
+            width: 100%;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0px;
+            right: 0px;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .style-36 {
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-37 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            font-weight: 700;
+            line-height: 40px;
+            box-sizing: border-box;
+            margin: 0px 0px 20px;
+        }
+
+        .style-38 {
+            color: rgba(86, 96, 115, 0.7);
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: Inter, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 30px;
+            box-sizing: border-box;
+        }
+
+        .style-39 {
+            box-sizing: border-box;
+        }
+
+        .style-40 {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-right: 0px;
+            font-family: Inter, sans-serif;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-41 {
+            gap: 0px;
+            text-align: center;
+            border-radius: 9px;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-self: auto;
+            align-items: center;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            display: block;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-42 {
+            display: block;
+            object-fit: none;
+            justify-content: center;
+            min-height: 40px;
+            max-height: 58px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            font-family: Inter, sans-serif;
+            line-height: 40px;
+            position: static;
+            box-sizing: border-box;
+        }
+
+        .style-43 {
+            border-radius: 9px;
+            justify-content: center;
+            align-self: center;
+            align-items: center;
+            width: 400px;
+            height: 50px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 10px;
+            padding-right: 0px;
+            font-family: Inter, sans-serif;
+            line-height: 40px;
+            display: inline-flex;
+            color: rgb(51, 51, 51);
+            vertical-align: middle;
+            background-color: rgb(255, 255, 255);
+            padding: 8px 0px 8px 10px;
+            font-size: 14px;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        .style-44 {
+            background-color: rgb(3, 87, 175);
+            text-align: center;
+            border-radius: 9px;
+            flex: 0 1 auto;
+            align-self: flex-start;
+            width: 200px;
+            height: 50px;
+            margin-left: 10px;
+            padding: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            display: inline-flex;
+            appearance: button;
+            color: rgb(255, 255, 255);
+            line-height: 40px;
+            cursor: pointer;
+            border: 0px none rgb(255, 255, 255);
+            text-decoration: none solid rgb(255, 255, 255);
+            box-sizing: border-box;
+            margin: 0px 0px 0px 10px;
+        }
+
+        .style-45 {
+            box-sizing: border-box;
+        }
+
+        .style-46 {
+            box-sizing: border-box;
+        }
+
+        .style-47 {
+            box-sizing: border-box;
+            line-height: normal;
+            color: rgb(0, 0, 0);
+            font: 16px 'Times New Roman';
+            margin: 0px;
+        }
+
+        .style-48 {
+            text-align: center;
+            background-color: rgb(221, 221, 221);
+            padding: 20px;
+            display: none;
+            box-sizing: border-box;
+        }
+
+        .style-49 {
+            box-sizing: border-box;
+        }
+
+        .style-50 {
+            background-color: rgb(255, 222, 222);
+            margin-top: 10px;
+            padding: 10px;
+            display: none;
+            box-sizing: border-box;
+        }
+
+        .style-51 {
+            box-sizing: border-box;
+        }
+
+        .style-52 {
+            display: block;
+            max-width: 940px;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+        }
+
+        .style-53 {
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns: 210px 210px 210px 210px;
+            background-color: rgb(245, 245, 245);
+            border-radius: 9px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-family: Inter, sans-serif;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-54 {
+            grid-column: span 2 / span 2;
+            align-items: flex-start;
+            font-family: Inter, sans-serif;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-55 {
+            margin-left: 20px;
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-56 {
+            justify-content: flex-start;
+            align-items: center;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-57 {
+            margin-left: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-58 {
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-59 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-60 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-61 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-62 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-63 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-64 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(191, 214, 245);
+            background-color: rgb(191, 214, 245);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-65 {
+            opacity: 0;
+            transform: translate3d(-100px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+            transform: matrix(1, 0, 0, 1, -100, 0);
+            transform-style: preserve-3d;
+            position: absolute;
+            box-sizing: border-box;
+        }
+
+        .style-66 {
+            opacity: 0;
+            transform: translate3d(-800px, 0px, 0px) scale3d(0.25, 0.25, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+            transform: matrix(0.25, 0, 0, 0.25, -800, 0);
+            transform-style: preserve-3d;
+            z-index: 1;
+            background-color: rgb(191, 214, 245);
+            border-radius: 9px;
+            font-size: 10px;
+            position: absolute;
+            inset: auto 0% 0%;
+            box-sizing: border-box;
+        }
+
+        .style-67 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-68 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-69 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-70 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(191, 214, 245);
+            background-color: rgb(191, 214, 245);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-71 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-72 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-73 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-74 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(191, 214, 245);
+            background-color: rgb(191, 214, 245);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-75 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-76 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-77 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-78 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(191, 214, 245);
+            background-color: rgb(191, 214, 245);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-79 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-80 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-81 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-82 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(242, 113, 8);
+            background-color: rgb(242, 113, 8);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-83 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-84 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-85 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-86 {
+            background-color: rgb(191, 214, 245);
+            color: rgb(255, 255, 255);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-87 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-88 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-89 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-90 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(191, 214, 245);
+            background-color: rgb(191, 214, 245);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-91 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-92 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-93 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-94 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(191, 214, 245);
+            background-color: rgb(191, 214, 245);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-95 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-96 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-97 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-98 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(191, 214, 245);
+            background-color: rgb(191, 214, 245);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-99 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-100 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-101 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-102 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(242, 113, 8);
+            background-color: rgb(242, 113, 8);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-103 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-104 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-105 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-106 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(242, 113, 8);
+            background-color: rgb(242, 113, 8);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-107 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-108 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-109 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-110 {
+            color: rgb(251, 253, 251);
+            background-color: rgb(191, 214, 245);
+            background-color: rgb(191, 214, 245);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-111 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-112 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-113 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-114 {
+            background-color: rgb(191, 214, 245);
+            color: rgb(255, 255, 255);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-115 {
+            grid-column: span 2 / span 2;
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-116 {
+            background-color: rgb(255, 255, 255);
+            border-radius: 9px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-117 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-118 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-119 {
+            background-color: rgb(191, 214, 245);
+            color: rgb(255, 255, 255);
+            margin-top: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-120 {
+            z-index: 2;
+            color: rgb(251, 253, 251);
+            text-align: center;
+            background-color: rgb(6, 151, 255);
+            border-radius: 9px;
+            max-width: 160px;
+            max-height: 112px;
+            padding-bottom: 2px;
+            font-family: Inter, sans-serif;
+            position: relative;
+            top: -67px;
+            left: 389px;
+            right: -32px;
+            box-sizing: border-box;
+        }
+
+        .style-121 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 3px;
+            font-family: Inter, sans-serif;
+            font-size: 11.2px;
+            font-weight: 400;
+            position: relative;
+            right: auto;
+            line-height: 20px;
+            box-sizing: border-box;
+        }
+
+        .style-122 {
+            text-align: center;
+            background-color: rgb(238, 15, 15);
+            border-radius: 8px;
+            max-width: 80px;
+            max-height: 48px;
+            margin-bottom: 40px;
+            margin-left: 38px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 0px;
+            line-height: 5px;
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-123 {
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns: 432.703px 447.297px;
+            background-color: rgb(245, 245, 245);
+            border-radius: 9px;
+            align-items: stretch;
+            padding-top: 10px;
+            font-family: Inter, sans-serif;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 10px 20px 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-124 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-125 {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-126 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-127 {
+            background-color: rgb(251, 253, 251);
+            border-radius: 9px;
+            flex-flow: column nowrap;
+            align-items: stretch;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-128 {
+            font-size: 14.4px;
+            margin-left: 10px;
+            margin-top: 10px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-129 {
+            grid-template-rows: auto auto auto auto;
+            grid-template-columns: 188.844px 188.859px;
+            gap: 15px;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            grid-auto-columns: 1fr;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-130 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-131 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-132 {
+            color: rgb(34, 34, 34);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Inter, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-133 {
+            font-size: 14.4px;
+            text-align: left;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-134 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-135 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-136 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-137 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-138 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-139 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-140 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-141 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-142 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-143 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-144 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            font-weight: 700;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-145 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-146 {
+            background-color: rgb(251, 253, 251);
+            border-radius: 9px;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-147 {
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-148 {
+            grid-template-rows: auto auto;
+            grid-template-columns: 196.141px 196.156px;
+            gap: 15px;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            grid-auto-columns: 1fr;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-149 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-150 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-151 {
+            text-align: left;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-152 {
+            font-size: 14.4px;
+            text-align: left;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-153 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-154 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-155 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-156 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-157 {
+            background-color: rgb(251, 253, 251);
+            border-radius: 9px;
+            align-items: stretch;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-158 {
+            font-size: 14.4px;
+            margin-left: 10px;
+            margin-top: 10px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-159 {
+            grid-template-rows: auto auto auto auto;
+            grid-template-columns: 188.844px 188.859px;
+            gap: 15px;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            grid-auto-columns: 1fr;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-160 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-161 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-162 {
+            text-align: left;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-163 {
+            font-size: 14.4px;
+            text-align: left;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-164 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-165 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-166 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-167 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-168 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-169 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-170 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-171 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-172 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-173 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-174 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            font-weight: 700;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-175 {
+            gap: 16px;
+            background-color: rgb(251, 253, 251);
+            border-radius: 9px;
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-columns: 1fr;
+            align-items: stretch;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            box-sizing: border-box;
+        }
+
+        .style-176 {
+            font-size: 14.4px;
+            margin-left: 10px;
+            margin-top: 10px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-177 {
+            grid-template-rows: auto auto;
+            grid-template-columns: 49.9844px 342.312px;
+            gap: 15px;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            grid-auto-columns: 1fr;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-178 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-179 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-180 {
+            text-align: left;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-181 {
+            font-size: 14.4px;
+            text-align: left;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-182 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-183 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-184 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-185 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-186 {
+            background-color: rgb(251, 253, 251);
+            border-radius: 9px;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-187 {
+            font-size: 14.4px;
+            margin-left: 10px;
+            margin-top: 10px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-188 {
+            grid-template-rows: auto auto auto auto auto auto auto;
+            grid-template-columns: 142.672px 235.031px;
+            gap: 15px;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            grid-auto-columns: 1fr;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-189 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-190 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-191 {
+            text-align: left;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-192 {
+            font-size: 14.4px;
+            text-align: left;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-193 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-194 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-195 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-196 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-197 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-198 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-199 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            font-weight: 700;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-200 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-201 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-202 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-203 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            align-items: flex-end;
+            flex-direction: row;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-204 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-205 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-206 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-207 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-208 {
+            color: rgb(34, 34, 34);
+            font-size: 14.4px;
+            text-align: left;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-209 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-210 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-211 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-212 {
+            color: rgb(34, 34, 34);
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-213 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-214 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-215 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-216 {
+            color: rgb(34, 34, 34);
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-217 {
+            background-color: rgb(251, 253, 251);
+            border-radius: 9px;
+            align-items: stretch;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-218 {
+            font-size: 14.4px;
+            margin-left: 10px;
+            margin-top: 10px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-219 {
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns: 196.141px 196.156px;
+            gap: 15px;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            grid-auto-columns: 1fr;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-220 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-221 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-222 {
+            text-align: left;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-223 {
+            font-size: 14.4px;
+            text-align: left;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-224 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-225 {
+            box-sizing: border-box;
+        }
+
+        .style-226 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-227 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-228 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-229 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-230 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-231 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-232 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-233 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-234 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-235 {
+            font-size: 14.4px;
+            text-align: left;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-236 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-237 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-238 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-239 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-240 {
+            background-color: rgb(251, 253, 251);
+            border-radius: 9px;
+            align-items: stretch;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-241 {
+            font-size: 14.4px;
+            margin-left: 10px;
+            margin-top: 10px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-242 {
+            grid-template-rows: auto auto auto;
+            grid-template-columns: 90.0312px 287.672px;
+            gap: 15px;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            grid-auto-columns: 1fr;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-243 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-244 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-245 {
+            text-align: left;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-246 {
+            font-size: 14.4px;
+            text-align: left;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-247 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-248 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-249 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-250 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-251 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-252 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-253 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-254 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-255 {
+            background-color: rgb(251, 253, 251);
+            border-radius: 9px;
+            align-items: stretch;
+            flex-direction: column;
+            justify-content: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-256 {
+            font-size: 14.4px;
+            margin-left: 10px;
+            margin-top: 10px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-257 {
+            grid-template-rows: auto auto;
+            grid-template-columns: 196.141px 196.156px;
+            gap: 15px;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            grid-auto-columns: 1fr;
+            padding: 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-258 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-259 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-260 {
+            text-align: left;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-261 {
+            font-size: 14.4px;
+            text-align: left;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-262 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-263 {
+            font-size: 14.4px;
+            box-sizing: border-box;
+        }
+
+        .style-264 {
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-265 {
+            font-size: 14.4px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-266 {
+            background-color: rgb(251, 253, 251);
+            color: rgb(251, 253, 251);
+            border-bottom: 1px solid rgb(228, 235, 243);
+            margin-top: 0px;
+            padding: 10px 10px 0px 20px;
+            font-family: Calibri, sans-serif;
+            position: relative;
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .style-267 {
+            border-top: 1px solid rgb(93, 90, 90);
+            border-bottom: 1px solid rgb(90, 88, 88);
+            width: 100%;
+            max-width: none;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+        }
+
+        .style-268 {
+            column-gap: 68px;
+            color: rgb(242, 113, 8);
+            box-sizing: border-box;
+        }
+
+        .style-269 {
+            grid-template-rows: auto;
+            grid-template-columns: 229.797px 919.203px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 0px 20px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-270 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-271 {
+            margin-right: 20px;
+            text-decoration: none solid rgb(0, 0, 238);
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-272 {
+            color: rgb(255, 255, 255);
+            font-family: Inter, sans-serif;
+            font-size: 40px;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+            background-color: rgb(30, 64, 175);
+            background-image: linear-gradient(135deg, rgb(0, 80, 157), rgb(0, 136, 237) 95%, rgb(59, 130, 246) 100%, rgb(0, 218, 217) 100%, rgb(59, 130, 246) 100%, rgb(0, 220, 217) 100%, rgb(0, 207, 220) 100%, rgb(0, 193, 223) 100%, rgb(0, 181, 226) 100%, rgb(59, 130, 246) 100%, rgb(247, 251, 254) 100%, rgb(255, 255, 255));
+            -webkit-background-clip: text;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            text-decoration: none solid rgb(255, 255, 255);
+            display: block;
+            font-weight: 700;
+            line-height: 40px;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        .style-273 {
+            color: rgb(123, 137, 151);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .style-274 {
+            color: rgb(34, 34, 34);
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-275 {
+            color: rgb(255, 255, 255);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 16px;
+            box-sizing: border-box;
+        }
+
+        .style-276 {
+            color: rgb(34, 34, 34);
+            margin-top: 12px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            line-height: 16px;
+            text-decoration: none solid rgb(34, 34, 34);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-277 {
+            color: rgb(34, 34, 34);
+            margin-top: 12px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            line-height: 16px;
+            text-decoration: none solid rgb(34, 34, 34);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-278 {
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 12px;
+            margin-left: -12px;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-279 {
+            margin-left: 12px;
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-280 {
+            vertical-align: middle;
+            max-width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 0px none rgb(0, 0, 238);
+        }
+
+        .style-281 {
+            margin-left: 12px;
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-282 {
+            vertical-align: middle;
+            max-width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 0px none rgb(0, 0, 238);
+        }
+
+        .style-283 {
+            margin-left: 12px;
+            max-width: 100%;
+            display: block;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-284 {
+            vertical-align: middle;
+            max-width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 0px none rgb(0, 0, 238);
+        }
+
+        .style-285 {
+            color: rgb(19, 19, 38);
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-286 {
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns: 157.875px 157.875px 157.875px;
+            color: rgb(19, 19, 38);
+            margin-top: 20px;
+            margin-left: 40px;
+            padding-left: 0px;
+            padding-right: 0px;
+            gap: 20px;
+            grid-auto-columns: 1fr;
+            justify-content: center;
+            padding: 20px 0px;
+            display: grid;
+            box-sizing: border-box;
+        }
+
+        .style-287 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-288 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-289 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-290 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-291 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-292 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+
+        .style-293 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-294 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-295 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-296 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-297 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-298 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-299 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-300 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-301 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-302 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-303 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-304 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-305 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-306 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-307 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-308 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-309 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-310 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-311 {
+            font-family: Inter, sans-serif;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-312 {
+            font-family: Inter, sans-serif;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-313 {
+            color: rgb(19, 19, 38);
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-314 {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-315 {
+            color: rgb(19, 19, 38);
+            font-family: Inter, sans-serif;
+            text-decoration: none solid rgb(19, 19, 38);
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .style-316 {
+            background-color: rgb(228, 235, 243);
+            width: 100%;
+            height: 1px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body class="style-0">
+    <div data-animation="default" data-collapse="tiny" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="style-1">
+        <div class="style-2"><a href="/" class="style-3" aria-label="home">
+                <h1 class="style-4">Datazag</h1>
+            </a>
+            <nav role="navigation" class="style-5">
+                <ul role="list" class="style-6">
+                    <li class="style-7">
+                        <div data-hover="true" data-delay="0" class="style-8">
+                            <div class="style-9" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                                <div class="style-10" aria-hidden="true"></div>
+                                <div class="style-11">Solutions</div>
+                            </div>
+                            <nav class="style-12" aria-labelledby="w-dropdown-toggle-0"><a href="/kyc" class="style-13" tabindex="0">KYC/Fraud Prevention</a><a href="/email-verification-list-cleaning" class="style-14" tabindex="0">Email Verification &amp; List Cleaning</a><a href="/log-analytics-threat-intelligence" class="style-15" tabindex="0">Log Analytics &amp; SIEM Enrichment</a></nav>
+                        </div>
+                    </li>
+                    <li class="style-16">
+                        <div data-hover="true" data-delay="0" class="style-17">
+                            <div class="style-18" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                                <div class="style-19" aria-hidden="true"></div>
+                                <div class="style-20">Developer</div>
+                            </div>
+                            <nav class="style-21" aria-labelledby="w-dropdown-toggle-1"><a href="/developers" class="style-22" tabindex="0">API Documentation</a><a href="#" class="style-23" tabindex="0">Cloud Marketplaces</a></nav>
+                        </div>
+                    </li>
+                    <li class="style-24"><a href="/pricing" class="style-25">Pricing</a></li>
+                    <li class="style-26"><a href="/about-new" class="style-27">Company</a></li>
+                    <li class="style-28">
+                        <div class="style-29"></div>
+                    </li>
+                    <li class="style-30"><a href="https://client.datazag.com" class="style-31">Start for free</a><a href="https://client.datazag.com" class="style-32">LOG IN</a></li>
+                </ul>
+            </nav>
+            <div class="style-33" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+                <div class="style-34"></div>
+            </div>
+        </div>
+        <div class="style-35" data-wf-ignore=""></div>
+    </div>
+    <section class="style-36">
+        <h1 class="style-37">Domain Explorer</h1>
+        <div class="style-38">Enter a domain name to analyze its DNS records. <br class="style-39" />Find out Risk Assessment, DNS records, and more.</div>
+        <div class="style-40">
+            <div class="style-41">
+                <form name="wf-form-Domain-Form" data-name="Domain Form" method="get" class="style-42" data-wf-page-id="6874cdc687871e19a8339889" data-wf-element-id="bd9a1f81-d4a3-4720-1f59-593837a50ad1" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e" aria-label="Domain Form"><input class="style-43" maxlength="256" name="name" data-name="name" placeholder="Enter Domain name" type="text" required="" /><input type="submit" data-wait="Please wait..." class="style-44" value="Submit" />
+                    <div class="style-45">
+                        <div class="style-46"><input type="hidden" name="cf-turnstile-response" value="0.q0EDtadczHYtXhhP0ai30H57X_e9Ty7Btkfl-1mMctVUX6LJPgcKiIiMg_9LBvbe6KmjHNgmTdu430VtSqoGUM74Lv0VLUj8PeNN7SX3HT1HgVSMTukkDU-J3oNUtBxOQPjdr9eaRSRLP2jnm_bUFFBkIzZDNF_9H7bTzE26l9gQZbXgRGBQsluZryOL069upoEoRAaIETEVtPBzxWP_f_UO7Xosa8M20rAddTfHVQWtEdcJSLVpnVzLX2ZMgHT08tWjnQK-SzLpL4SSGbJSqeyVxwYY0uBMldbt6QPRX-B039cafWn3tqwkOwtxahzpFyMjr6rPUUYDnfHizg_MTWHiPGtng7CTo29s5-VutY5hCcHeVdQCapkfcEtF-EhfbfM8VvmE8ZLiBfCBrfXsTSY0HbdO5NeI93-AI9BSacjYzl15dUSE798-c36HhAo-GZHgHZ43I-sZdFXEmyM50e-VaseMaEaSxizK-tdiNFCO6KqBnUNk7KlFcGDXgt3NzRc8GuH7GaflwS2X_hlRZF--BoeJQshiHc4H-PeLXJEDUmJ-76DfMHA39Lv7uQqlvogmKu-HdbMy1D11k8Vo6wbWB8o9dKvq4V_bZUKI2sl3UGxGDDu96mqblG9vexAKjxPsDi4E38ofGtQG-4kCNGWg6Z5H6q4Pc5SBVpFG3aGsEtLcM1wfTbhjcklm9DdnRva3dBL43pF14kXSnfu00iGYrUjxeu08L_aPTjgG6_cavdekjDYhOJImnTGw6_mPJebHCsWo0mlGOAU0NXbJK6K9VhZp_8n0OxdMNC8glv54aO-JjBDaUfMx1K-_NY6vD5FjrmquEdbWPmcu134OIv7xz8T5GR_SFnH2MJ5QYvD1ePCtP1UykW29wtacP1JFAhjkImdW1ihVgCpVLSRuukKRc3CwExLTE7O_cunRwEXGPVZsSN5coWpwQYvRJ5Hm.cPpUdPREaH5RsdWy_u619Q.501d69cf6c8e574116be2a3ca4f2e08779e1a05a33c7a7229993e44b9b7b5052" class="style-47" /></div>
+                    </div>
+                </form>
+                <div data-form="success" class="style-48" tabindex="-1" role="region" aria-label="Domain Form success">
+                    <div class="style-49"></div>
+                </div>
+                <div data-form="error" class="style-50" tabindex="-1" role="region" aria-label="Domain Form failure">
+                    <div class="style-51">Oops! Something went wrong...</div>
+                </div>
+            </div>
+        </div>
+        <div class="style-52">
+            <div class="style-53">
+                <div class="style-54">
+                    <h4 class="style-55">Domain Risk Assessment</h4>
+                    <div class="style-56">
+                        <div class="style-57">Domain: &nbsp;</div>
+                        <div data-result="true" class="style-58">datazag.com</div>
+                    </div>
+                </div>
+                <div class="style-59"></div>
+                <div class="style-60"></div>
+                <div title="Indicates how long the domain has existed. Newer domains may signal disposable or malicious intent." class="style-61">
+                    <h5 class="style-62">New Domain</h5>
+                    <h5 data-result="true" class="style-63">No</h5>
+                    <h5 data-result="true" class="style-64">Safe</h5>
+                    <div data-w-id="1babeea0-5767-5d9b-df5c-1f526e774992" class="style-65">
+                        <div data-w-id="1babeea0-5767-5d9b-df5c-1f526e774993" class="style-66">Indicates how long the domain has existed. Newer domains may signal disposable or malicious intent.</div>
+                    </div>
+                </div>
+                <div class="style-67">
+                    <h5 class="style-68">Phishing List</h5>
+                    <h5 data-result="true" class="style-69">No</h5>
+                    <h5 data-result="true" class="style-70">Safe</h5>
+                </div>
+                <div class="style-71">
+                    <h5 class="style-72">Malware List</h5>
+                    <h5 data-result="true" class="style-73">No</h5>
+                    <h5 data-result="true" class="style-74">Safe</h5>
+                </div>
+                <div class="style-75">
+                    <h5 class="style-76">Disposable</h5>
+                    <h5 data-result="true" class="style-77">No</h5>
+                    <h5 data-result="true" class="style-78">Safe</h5>
+                </div>
+                <div class="style-79">
+                    <h5 class="style-80">Parked</h5>
+                    <h5 data-result="true" class="style-81">No</h5>
+                    <h5 data-result="true" class="style-82">Uncertain</h5>
+                </div>
+                <div class="style-83">
+                    <h5 class="style-84">Top 1M domains</h5>
+                    <h5 data-result="true" class="style-85">Yes</h5>
+                    <h5 data-result="true" class="style-86">Safe</h5>
+                </div>
+                <div class="style-87">
+                    <h5 class="style-88">IP address</h5>
+                    <h5 data-result="true" class="style-89">AMAZON-02</h5>
+                    <h5 data-result="true" class="style-90">Safe</h5>
+                </div>
+                <div class="style-91">
+                    <h5 class="style-92">TLD</h5>
+                    <h5 data-result="true" class="style-93">com</h5>
+                    <h5 data-result="true" class="style-94">Neutral</h5>
+                </div>
+                <div class="style-95">
+                    <h5 class="style-96">Mailbox Provider</h5>
+                    <h5 data-result="true" class="style-97">Microsoft</h5>
+                    <h5 data-result="true" class="style-98">Safe</h5>
+                </div>
+                <div class="style-99">
+                    <h5 class="style-100">Trusted MBP</h5>
+                    <h5 data-result="true" class="style-101">Yes</h5>
+                    <h5 data-result="true" class="style-102">Safe</h5>
+                </div>
+                <div class="style-103">
+                    <h5 class="style-104">Mailable</h5>
+                    <h5 data-result="true" class="style-105">Yes</h5>
+                    <h5 data-result="true" class="style-106">Safe</h5>
+                </div>
+                <div class="style-107">
+                    <h5 class="style-108">SPF Block</h5>
+                    <h5 data-result="true" class="style-109">No</h5>
+                    <h5 data-result="true" class="style-110">Safe</h5>
+                </div>
+                <div class="style-111">
+                    <h5 class="style-112">DMARC</h5>
+                    <h5 data-result="true" class="style-113">Yes</h5>
+                    <h5 data-result="true" class="style-114">Safe</h5>
+                </div>
+                <div class="style-115"></div>
+                <div class="style-116">
+                    <h5 class="style-117">BIMI</h5>
+                    <h5 data-result="true" class="style-118">Yes</h5>
+                    <h5 data-result="true" class="style-119">Safe</h5>
+                </div>
+            </div>
+            <div class="style-120">
+                <h5 class="style-121">OVERALL DECISION</h5>
+                <h5 class="style-122">HIGH RISK</h5>
+            </div>
+            <div class="style-123">
+                <div class="style-124">
+                    <h4 class="style-125">DNS Records Overview</h4>
+                </div>
+                <div class="style-126"></div>
+                <div class="style-127">
+                    <h5 class="style-128">Domain</h5>
+                    <div class="style-129">
+                        <div class="style-130">
+                            <div class="style-131">suffix:</div>
+                        </div>
+                        <div class="style-132">
+                            <div class="style-133">.com</div>
+                        </div>
+                        <div class="style-134">
+                            <div class="style-135">tld country:</div>
+                        </div>
+                        <div class="style-136">
+                            <div class="style-137">Generic</div>
+                        </div>
+                        <div class="style-138">
+                            <div class="style-139">tld manager:</div>
+                        </div>
+                        <div class="style-140">
+                            <div class="style-141">VeriSign Global Registry Services</div>
+                        </div>
+                        <div class="style-142">
+                            <div class="style-143">top domain rank:</div>
+                        </div>
+                        <div class="style-144">
+                            <div class="style-145">576</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-146">
+                    <h5 class="style-147">Authorative Records</h5>
+                    <div class="style-148">
+                        <div class="style-149">
+                            <div class="style-150">ns:</div>
+                        </div>
+                        <div class="style-151">
+                            <div class="style-152">ns-1289.awsdns-33.org,ns-1997.awsdns-57.co.uk,ns-48.awsdns-06.com,ns-705.awsdns-24.net</div>
+                        </div>
+                        <div class="style-153">
+                            <div class="style-154">soa:</div>
+                        </div>
+                        <div class="style-155">
+                            <div class="style-156">ns-1289.awsdns-33.org awsdns-hostmaster.amazon.com 1 7200 900 1209600 86400 -1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-157">
+                    <h5 class="style-158">IP Records</h5>
+                    <div class="style-159">
+                        <div class="style-160">
+                            <div class="style-161">a:</div>
+                        </div>
+                        <div class="style-162">
+                            <div data-result="true" class="style-163">99.83.190.102,75.2.70.75</div>
+                        </div>
+                        <div class="style-164">
+                            <div class="style-165">aaaa:</div>
+                        </div>
+                        <div class="style-166">
+                            <div class="style-167">None</div>
+                        </div>
+                        <div class="style-168">
+                            <div class="style-169">ISP:</div>
+                        </div>
+                        <div class="style-170">
+                            <div class="style-171">AMAZON-02</div>
+                        </div>
+                        <div class="style-172">
+                            <div class="style-173">ISP Country:</div>
+                        </div>
+                        <div data-result="true" class="style-174">US</div>
+                    </div>
+                </div>
+                <div class="style-175">
+                    <h5 class="style-176">Alias &amp; Pointer Records</h5>
+                    <div class="style-177">
+                        <div class="style-178">
+                            <div class="style-179">ptr:</div>
+                        </div>
+                        <div class="style-180">
+                            <div data-result="true" class="style-181">aacb0a264e514dd48.awsglobalaccelerator.com</div>
+                        </div>
+                        <div class="style-182">
+                            <div class="style-183">cname:</div>
+                        </div>
+                        <div class="style-184">
+                            <div data-result="true" class="style-185">None</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-186">
+                    <h5 class="style-187">Mail Records</h5>
+                    <div class="style-188">
+                        <div class="style-189">
+                            <div class="style-190">mx:</div>
+                        </div>
+                        <div class="style-191">
+                            <div data-result="true" class="style-192">0:datazag-com.mail.protection.outlook.com</div>
+                        </div>
+                        <div class="style-193">
+                            <div class="style-194">mailbox provider:</div>
+                        </div>
+                        <div class="style-195">
+                            <div data-result="true" class="style-196">Gmail</div>
+                        </div>
+                        <div class="style-197">
+                            <div class="style-198">provider category:</div>
+                        </div>
+                        <div class="style-199">
+                            <div data-result="true" class="style-200">Email Service</div>
+                        </div>
+                        <div class="style-201">
+                            <div class="style-202">country:</div>
+                        </div>
+                        <div data-result="true" class="style-203">
+                            <div data-result="true" class="style-204">US</div>
+                        </div>
+                        <div class="style-205">
+                            <div class="style-206">spf:</div>
+                        </div>
+                        <div class="style-207">
+                            <div data-result="true" class="style-208">Yes</div>
+                        </div>
+                        <div class="style-209">
+                            <div class="style-210">dmarc:</div>
+                        </div>
+                        <div class="style-211">
+                            <div data-result="true" class="style-212">Yes</div>
+                        </div>
+                        <div class="style-213">
+                            <div class="style-214">bimi:</div>
+                        </div>
+                        <div class="style-215">
+                            <div data-result="true" class="style-216">Unknown</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-217">
+                    <h5 class="style-218">mail.datazag.com</h5>
+                    <div class="style-219">
+                        <div class="style-220">
+                            <div class="style-221">a:</div>
+                        </div>
+                        <div class="style-222">
+                            <div data-result="true" class="style-223"></div>
+                        </div>
+                        <div class="style-224">
+                            <div class="style-225">ptr:</div>
+                        </div>
+                        <div class="style-226">
+                            <div data-result="true" class="style-227"></div>
+                        </div>
+                        <div class="style-228">
+                            <div class="style-229">mx:</div>
+                        </div>
+                        <div class="style-230">
+                            <div data-result="true" class="style-231">None</div>
+                        </div>
+                        <div class="style-232">
+                            <div class="style-233">spf:</div>
+                        </div>
+                        <div class="style-234">
+                            <div data-result="true" class="style-235">No SPF</div>
+                        </div>
+                        <div class="style-236">
+                            <div class="style-237">dmarc:</div>
+                        </div>
+                        <div class="style-238">
+                            <div data-result="true" class="style-239">None</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-240">
+                    <h5 data-result="true" class="style-241">www.datazag.com</h5>
+                    <div class="style-242">
+                        <div class="style-243">
+                            <div class="style-244">a:</div>
+                        </div>
+                        <div class="style-245">
+                            <div data-result="true" class="style-246">15.161.34.42,35.152.117.67,15.160.106.203</div>
+                        </div>
+                        <div class="style-247">
+                            <div class="style-248">ptr:</div>
+                        </div>
+                        <div class="style-249">
+                            <div data-result="true" class="style-250">ec2-15-161-34-42.eu-south-1.compute.amazonaws.com</div>
+                        </div>
+                        <div class="style-251">
+                            <div class="style-252">cname:</div>
+                        </div>
+                        <div class="style-253">
+                            <div data-result="true" class="style-254">proxy-ssl.webflow.com</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-255">
+                    <h5 data-result="true" class="style-256">Webmail Classification (webmail domains only)</h5>
+                    <div class="style-257">
+                        <div class="style-258">
+                            <div class="style-259">webmail company:</div>
+                        </div>
+                        <div class="style-260">
+                            <div data-result="true" class="style-261"></div>
+                        </div>
+                        <div class="style-262">
+                            <div class="style-263">country:</div>
+                        </div>
+                        <div class="style-264">
+                            <div data-result="true" class="style-265"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="style-266">
+        <div class="style-267">
+            <div class="style-268">
+                <div class="style-269">
+                    <div class="style-270"><a href="#" class="style-271">
+                            <h1 class="style-272">Datazag</h1>
+                        </a>
+                        <div class="style-273">© 2025 Datazag Ltd. All rights reserved.</div>
+                        <div class="style-274">
+                            <div class="style-275">Contact us</div><a href="https://outlook.office365.com/owa/calendar/ScheduleaChat1@datazag.com/bookings/" target="_blank" class="style-276">Schedule a Chat</a><a href="#" class="style-277">info@datazag.com</a>
+                            <div class="style-278"><a href="#" class="style-279"><img src="https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124ac15112aad5_twitter%20small.svg" loading="lazy" alt="" class="style-280" /></a><a href="#" class="style-281"><img src="https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124a389912aad8_linkedin%20small.svg" loading="lazy" alt="" class="style-282" /></a><a href="#" class="style-283"><img src="https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124a51bf12aae9_facebook%20small.svg" loading="lazy" alt="" class="style-284" /></a></div>
+                        </div>
+                    </div>
+                    <div class="style-285">
+                        <div class="style-286">
+                            <div class="style-287">
+                                <div class="style-288">Solutions</div>
+                            </div>
+                            <div class="style-289">
+                                <div class="style-290">Developers</div>
+                            </div>
+                            <div class="style-291">
+                                <div class="style-292">Company</div>
+                            </div>
+                            <div class="style-293"><a href="#" class="style-294">KYC &amp; Fraud Prevention</a></div>
+                            <div class="style-295"><a href="#" class="style-296">API Documentation</a></div>
+                            <div class="style-297"><a href="#" class="style-298">About&nbsp;&nbsp;Us</a></div>
+                            <div class="style-299"><a href="#" class="style-300">Email Verification</a></div>
+                            <div class="style-301"><a href="#" class="style-302">Cloud Marketplaces</a></div>
+                            <div class="style-303"><a href="#" class="style-304">Contact</a></div>
+                            <div class="style-305"><a href="#" class="style-306">Log Analytics</a></div>
+                            <div class="style-307"><a href="#" class="style-308">Status</a></div>
+                            <div class="style-309"><a href="/t-cs" class="style-310">Terms of Service</a></div>
+                            <div class="style-311"></div>
+                            <div class="style-312"><a href="/blog" class="style-313">Blog</a></div>
+                            <div class="style-314"><a href="/privacy" class="style-315">Privacy Policy</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="style-316"></div>
+        </div>
+    </section>
+</body>
+
+</html>

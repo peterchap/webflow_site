@@ -1,0 +1,205 @@
+<html>
+
+<head></head>
+
+<body style="cursor: auto;color:rgb(51, 51, 51);font-family:Circularstd, sans-serif;font-size:14px;line-height:20px;background-color:rgb(255, 255, 255);min-height:100%;margin:0px;box-sizing:border-box;">
+    <div data-animation="default" data-collapse="tiny" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" style="z-index:5;border-style:solid;border-width:0px 0px 1px;border-color:rgba(86, 96, 115, 0.7);background-color:rgb(255, 255, 255);width: 100%;max-width:1520px;margin-bottom:10px;margin-left: auto;margin-right: auto;padding:20px 0px 20px 20px;font-family:Inter, sans-serif;font-weight:700;background:rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;position:relative;box-sizing:border-box;">
+        <div style="border-style:none;border-width:0px;border-color:rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(245, 245, 245);background-color:rgb(251, 253, 251);color:rgb(251, 253, 251);border-radius:0px;justify-content:space-between;align-items:center;margin-bottom:0px;font-family:Inter, sans-serif;display:flex;box-sizing:border-box;"><a href="/" aria-label="home" style="color:rgb(243, 236, 236);float:left;text-decoration:none solid rgb(243, 236, 236);position:relative;box-sizing:border-box;background-color:rgba(0, 0, 0, 0);">
+                <h1 style="color:rgb(255, 255, 255);font-family:Inter, sans-serif;font-size:40px;-webkit-text-fill-color:rgba(0, 0, 0, 0);background-color:rgb(30, 64, 175);background-image:linear-gradient(135deg, rgb(0, 80, 157), rgb(0, 136, 237) 95%, rgb(59, 130, 246) 100%, rgb(0, 218, 217) 100%, rgb(59, 130, 246) 100%, rgb(0, 220, 217) 100%, rgb(0, 207, 220) 100%, rgb(0, 193, 223) 100%, rgb(0, 181, 226) 100%, rgb(59, 130, 246) 100%, rgb(247, 251, 254) 100%, rgb(255, 255, 255));-webkit-background-clip:text;margin-top:0px;margin-bottom:0px;padding-top:15px;padding-bottom:20px;text-decoration:none solid rgb(255, 255, 255);display:block;font-weight:700;line-height:40px;box-sizing:border-box;margin:0px;">Datazag</h1>
+            </a>
+            <nav role="navigation" style="margin-right:10px;float:right;position:relative;box-sizing:border-box;display:block;">
+                <ul role="list" style="color:rgb(34, 34, 34);justify-content:space-between;align-items:center;margin-bottom:0px;display:flex;padding-left:0px;list-style:outside none none;margin-top:0px;box-sizing:border-box;">
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div data-hover="true" data-delay="0" style="text-align:left;z-index:900;margin-left: auto;margin-right: auto;display:inline-block;position:relative;box-sizing:border-box;">
+                            <div aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="font-family:Inter, sans-serif;user-select:none;cursor:pointer;padding-right:40px;display:inline-block;vertical-align:top;color:rgb(34, 34, 34);text-align:left;white-space:nowrap;margin-left: auto;margin-right: auto;padding:20px 40px 20px 20px;text-decoration:none solid rgb(34, 34, 34);position:relative;box-sizing:border-box;">
+                                <div aria-hidden="true" style="font-family:webflow-icons;font-size:16px;width: 1em;height:16px;margin: auto 20px auto auto;position:absolute;top:0px;bottom:0px;right:0px;box-sizing:border-box;speak:none;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;font-style:normal;font-weight:400;line-height:16px;"></div>
+                                <div style="letter-spacing:2px;font-family:Inter, sans-serif;box-sizing:border-box;">Solutions</div>
+                            </div>
+                            <nav aria-labelledby="w-dropdown-toggle-0" style="background:rgb(221, 221, 221) none repeat scroll 0% 0% / auto padding-box border-box;min-width:100%;display:none;position:absolute;box-sizing:border-box;"><a href="/kyc" tabindex="0" style="color:rgb(34, 34, 34);padding:10px 20px;display:block;vertical-align:top;text-align:left;white-space:nowrap;margin-left: auto;margin-right: auto;text-decoration:none solid rgb(34, 34, 34);position:relative;box-sizing:border-box;background-color:rgba(0, 0, 0, 0);">KYC/Fraud Prevention</a><a href="/email-verification-list-cleaning" tabindex="0" style="color:rgb(34, 34, 34);padding:10px 20px;display:block;vertical-align:top;text-align:left;white-space:nowrap;margin-left: auto;margin-right: auto;text-decoration:none solid rgb(34, 34, 34);position:relative;box-sizing:border-box;background-color:rgba(0, 0, 0, 0);">Email Verification &amp; List Cleaning</a><a href="/log-analytics-threat-intelligence" tabindex="0" style="color:rgb(34, 34, 34);padding:10px 20px;display:block;vertical-align:top;text-align:left;white-space:nowrap;margin-left: auto;margin-right: auto;text-decoration:none solid rgb(34, 34, 34);position:relative;box-sizing:border-box;background-color:rgba(0, 0, 0, 0);">Log Analytics &amp; SIEM Enrichment</a></nav>
+                        </div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div data-hover="true" data-delay="0" style="text-align:left;z-index:900;margin-left: auto;margin-right: auto;display:inline-block;position:relative;box-sizing:border-box;">
+                            <div aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="letter-spacing:normal;font-family:Inter, sans-serif;user-select:none;cursor:pointer;padding-right:40px;display:inline-block;vertical-align:top;color:rgb(34, 34, 34);text-align:left;white-space:nowrap;margin-left: auto;margin-right: auto;padding:20px 40px 20px 20px;text-decoration:none solid rgb(34, 34, 34);position:relative;box-sizing:border-box;">
+                                <div aria-hidden="true" style="font-family:webflow-icons;font-size:16px;width: 1em;height:16px;margin: auto 20px auto auto;position:absolute;top:0px;bottom:0px;right:0px;box-sizing:border-box;speak:none;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;font-style:normal;font-weight:400;line-height:16px;"></div>
+                                <div style="letter-spacing:2px;font-family:Inter, sans-serif;box-sizing:border-box;">Developer</div>
+                            </div>
+                            <nav aria-labelledby="w-dropdown-toggle-1" style="background:rgb(221, 221, 221) none repeat scroll 0% 0% / auto padding-box border-box;min-width:100%;display:none;position:absolute;box-sizing:border-box;"><a href="/developers" tabindex="0" style="color:rgb(34, 34, 34);padding:10px 20px;display:block;vertical-align:top;text-align:left;white-space:nowrap;margin-left: auto;margin-right: auto;text-decoration:none solid rgb(34, 34, 34);position:relative;box-sizing:border-box;background-color:rgba(0, 0, 0, 0);">API Documentation</a><a href="#" tabindex="0" style="color:rgb(34, 34, 34);padding:10px 20px;display:block;vertical-align:top;text-align:left;white-space:nowrap;margin-left: auto;margin-right: auto;text-decoration:none solid rgb(34, 34, 34);position:relative;box-sizing:border-box;background-color:rgba(0, 0, 0, 0);">Cloud Marketplaces</a></nav>
+                        </div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;"><a href="/pricing" aria-current="page" style="color:rgb(34, 34, 34);text-align:center;letter-spacing:2px;overflow-wrap:break-word;mix-blend-mode:normal;align-items:center;margin-left:5px;margin-right:5px;padding:5px 0px;font-family:Inter, sans-serif;font-size:14px;line-height:20px;text-decoration:none solid rgb(34, 34, 34);display:inline-flex;box-sizing:border-box;background-color:rgba(0, 0, 0, 0);">Pricing</a></li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;"><a href="/about-new" style="color:rgb(34, 34, 34);text-align:center;letter-spacing:2px;overflow-wrap:break-word;mix-blend-mode:normal;align-items:center;margin-left:5px;margin-right:5px;padding:5px 0px;font-family:Inter, sans-serif;font-size:14px;line-height:20px;text-decoration:none solid rgb(34, 34, 34);display:inline-flex;box-sizing:border-box;background-color:rgba(0, 0, 0, 0);">Company</a></li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-color:rgb(228, 235, 243);width: 1px;height:22px;margin-left:15px;margin-right:15px;box-sizing:border-box;"></div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;"><a href="https://client.datazag.com" style="background-color:rgb(242, 113, 8);color:rgb(255, 255, 255);letter-spacing:2px;text-transform:uppercase;padding:12px 25px;font-size:12px;line-height:20px;transition:0.2s;cursor:pointer;border:0px none rgb(255, 255, 255);border-radius:0px;text-decoration:none solid rgb(255, 255, 255);display:inline-block;box-sizing:border-box;">Start for free</a><a href="https://client.datazag.com" style="background-color:rgb(3, 87, 175);color:rgb(255, 255, 255);letter-spacing:2px;text-transform:uppercase;margin-left:10px;padding:12px 10px;font-family:Inter, sans-serif;font-size:12px;line-height:20px;transition:0.2s;cursor:pointer;border:0px none rgb(255, 255, 255);border-radius:0px;text-decoration:none solid rgb(255, 255, 255);display:inline-block;box-sizing:border-box;">LOG IN</a></li>
+                </ul>
+            </nav>
+            <div style="-webkit-user-select: text;float:right;cursor:pointer;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);user-select:text;padding:18px;font-size:24px;display:none;position:relative;box-sizing:border-box;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+                <div style="box-sizing:border-box;speak:none;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;font-style:normal;font-weight:400;line-height:24px;font-family:webflow-icons;"></div>
+            </div>
+        </div>
+        <div data-wf-ignore="" style="width: 100%;display:none;position:absolute;top:100%;left:0px;right:0px;overflow:hidden;box-sizing:border-box;"></div>
+    </div>
+    <section style="box-sizing:border-box;display:block;">
+        <h4 style="color:rgb(34, 34, 34);text-align:center;margin-top:60px;font-family:Inter, sans-serif;font-size:38px;line-height:24px;margin-bottom:10px;font-weight:700;box-sizing:border-box;">Simple Pricing. No Surprises</h4>
+        <h3 style="color:rgba(86, 96, 115, 0.7);text-align:center;font-family:Inter, sans-serif;font-size:32px;margin-top:20px;margin-bottom:10px;font-weight:700;line-height:46px;box-sizing:border-box;">API Pricing </h3>
+        <div style="grid-template-rows: auto;grid-template-columns:284.75px 284.75px 284.75px 284.75px;gap:20px;grid-auto-columns: 1fr;justify-content:center;padding:20px;display:grid;box-sizing:border-box;">
+            <div style="background-color:rgb(245, 245, 245);text-align:center;border-radius:9px;align-items:center;flex-direction:column;justify-content:flex-start;display:flex;box-sizing:border-box;">
+                <h4 style="color:rgb(34, 34, 34);text-align:center;align-self:center;font-family:'Open Sans', sans-serif;font-size:19.2px;margin-top:10px;line-height:24px;margin-bottom:10px;font-weight:700;box-sizing:border-box;">Community</h4>
+                <div style="color:rgb(34, 34, 34);align-self:center;margin-bottom:10px;font-family:'Open Sans', sans-serif;font-size:16px;font-weight:700;box-sizing:border-box;">$0 / month</div>
+                <ul role="list" style="padding-bottom:20px;font-family:'Open Sans', sans-serif;margin-top:0px;margin-bottom:10px;padding-left:40px;box-sizing:border-box;">
+                    <li style="color:rgb(34, 34, 34);text-align:left;padding-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">1,000 API queries/month</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Checks mailability and trustworthiness</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">No rate limiting</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:Roboto, sans-serif;box-sizing:border-box;">Renewable for 3 Months </li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Community &amp; Docs Support</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;font-family:'Open Sans', sans-serif;box-sizing:border-box;">For non-commercial projects and commercial testing only</li>
+                </ul>
+            </div>
+            <div style="background-color:rgb(245, 245, 245);border-radius:9px;align-items:center;flex-direction:column;justify-content:flex-start;display:flex;box-sizing:border-box;">
+                <h4 style="color:rgb(34, 34, 34);text-align:center;align-self:center;font-family:'Open Sans', sans-serif;font-size:19.2px;margin-top:10px;line-height:24px;margin-bottom:10px;font-weight:700;box-sizing:border-box;">Pro</h4>
+                <div style="color:rgb(34, 34, 34);align-self:center;margin-bottom:10px;font-family:'Open Sans', sans-serif;font-size:16px;font-weight:700;box-sizing:border-box;">$79 / month</div>
+                <ul role="list" style="padding-bottom:20px;font-family:'Open Sans', sans-serif;margin-top:0px;margin-bottom:10px;padding-left:40px;box-sizing:border-box;">
+                    <li style="color:rgb(34, 34, 34);text-align:left;padding-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">20,000 API queries/month</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Everything in Community plus</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Auto renewal</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:Roboto, sans-serif;box-sizing:border-box;">Automatic pro-rata overage to prevent disruption in service</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Email &amp; chat Support</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;font-family:'Open Sans', sans-serif;box-sizing:border-box;">For commercial applications</li>
+                </ul>
+            </div>
+            <div style="background-color:rgb(245, 245, 245);border-radius:9px;align-items:center;flex-direction:column;justify-content:flex-start;display:flex;box-sizing:border-box;">
+                <h4 style="color:rgb(34, 34, 34);text-align:center;align-self:center;font-family:'Open Sans', sans-serif;font-size:19.2px;margin-top:10px;line-height:24px;margin-bottom:10px;font-weight:700;box-sizing:border-box;">Business</h4>
+                <div style="color:rgb(34, 34, 34);align-self:center;margin-bottom:10px;font-family:'Open Sans', sans-serif;font-size:16px;font-weight:700;box-sizing:border-box;"><strong style="box-sizing:border-box;font-weight:700;">$499</strong> / month</div>
+                <ul role="list" style="padding-bottom:20px;font-family:'Open Sans', sans-serif;margin-top:0px;margin-bottom:10px;padding-left:40px;box-sizing:border-box;">
+                    <li style="color:rgb(34, 34, 34);text-align:left;padding-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">150,000 API queries/month</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Core real-time data (Current Whois &amp; DNS)</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Basic Risk Score</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:Roboto, sans-serif;box-sizing:border-box;">Phishing &amp; Malware Flags</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Community &amp; Docs Support</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;font-family:'Open Sans', sans-serif;box-sizing:border-box;">For non-commercial projects only</li>
+                </ul>
+            </div>
+            <div style="background-color:rgb(245, 245, 245);border-radius:9px;flex-direction:column;justify-content:flex-start;align-items:flex-start;display:flex;box-sizing:border-box;">
+                <h4 style="color:rgb(34, 34, 34);text-align:center;align-self:center;font-family:'Open Sans', sans-serif;font-size:19.2px;margin-top:10px;line-height:24px;margin-bottom:10px;font-weight:700;box-sizing:border-box;">Enterprise</h4>
+                <div style="color:rgb(34, 34, 34);align-self:center;margin-bottom:10px;font-family:'Open Sans', sans-serif;font-size:16px;font-weight:700;box-sizing:border-box;"><strong style="box-sizing:border-box;font-weight:700;">$499</strong> / month</div>
+                <ul role="list" style="padding-bottom:20px;font-family:'Open Sans', sans-serif;margin-top:0px;margin-bottom:10px;padding-left:40px;box-sizing:border-box;">
+                    <li style="color:rgb(34, 34, 34);text-align:left;padding-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">100,000 API queries/month</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Core real-time data (Current Whois &amp; DNS)</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Basic Risk Score</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:Roboto, sans-serif;box-sizing:border-box;">Phishing &amp; Malware Flags</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;margin-bottom:10px;font-family:'Open Sans', sans-serif;box-sizing:border-box;">Community &amp; Docs Support</li>
+                    <li style="color:rgb(34, 34, 34);text-align:left;font-family:'Open Sans', sans-serif;box-sizing:border-box;">For non-commercial projects only</li>
+                </ul>
+            </div>
+        </div>
+        <section style="box-sizing:border-box;display:block;"></section>
+    </section>
+    <section style="box-sizing:border-box;display:block;">
+        <h3 style="color:rgb(123, 137, 151);text-align:center;font-family:Inter, sans-serif;font-size:32px;margin-top:20px;margin-bottom:10px;font-weight:700;line-height:46px;box-sizing:border-box;">Cloud Marketplace Pricing</h3>
+        <h4 style="text-align:center;margin-top:10px;font-size:18px;line-height:24px;margin-bottom:10px;font-weight:700;box-sizing:border-box;">Use Your Existing Cloud Commitments</h4>
+        <div style="box-sizing:border-box;">
+            <p style="color:rgb(19, 19, 38);text-align:center;font-family:'Open Sans', sans-serif;margin-bottom:10px;margin-top:0px;box-sizing:border-box;">Access our full datasets on your preferred cloud platform. <br style="box-sizing:border-box;" />Use your organization's committed cloud spend, simplifying procurement.</p>
+        </div>
+        <div style="grid-template-rows: auto;grid-template-columns:281.75px 281.75px 281.75px 281.75px;column-gap:24px;gap:20px 24px;grid-auto-columns: 1fr;justify-content:center;padding:20px;display:grid;box-sizing:border-box;">
+            <div style="background-color:rgb(245, 245, 245);border-radius:9px;flex-direction:column;justify-content:flex-start;align-items:flex-start;display:flex;box-sizing:border-box;">
+                <h2 style="align-self:center;margin-top:10px;margin-bottom:8px;font-family:Inter, sans-serif;font-size:19.2px;font-weight:700;line-height:48px;color:rgb(34, 34, 34);position:static;box-sizing:border-box;">Community</h2>
+                <div style="align-self:center;margin-bottom:8px;font-family:'Open Sans', sans-serif;font-size:16px;font-weight:700;line-height:32px;box-sizing:border-box;">$0 / month</div><a href="#" style="color:rgb(26, 27, 31);background-color:rgba(0, 0, 0, 0);align-self:center;box-shadow:rgb(26, 27, 31) 0px 0px 0px 1px inset;letter-spacing:2px;text-transform:uppercase;padding:12px 25px;font-size:12px;line-height:20px;transition:0.2s;cursor:pointer;border:0px none rgb(26, 27, 31);border-radius:0px;text-decoration:none solid rgb(26, 27, 31);display:block;box-sizing:border-box;">Talk to an Expert</a>
+                <ul role="list" style="align-self:stretch;margin-left:5px;margin-right:5px;padding-left:5px;padding-right:5px;font-family:'Open Sans', sans-serif;list-style:outside none none;margin-top:0px;margin-bottom:10px;box-sizing:border-box;">
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">For Academic &amp; Non-Profit Research - (Requires a valid academic email for verification)</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;"></li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">5M Domain Sample Dataset</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Live Cloud Share Delivery</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;"><strong style="box-sizing:border-box;font-weight:700;">100 GB/month</strong> of included query usage</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Standard Email Support</div>
+                    </li>
+                </ul>
+            </div>
+            <div style="background-color:rgb(245, 245, 245);border-radius:9px;justify-content:flex-start;padding-left:5px;padding-right:5px;flex-direction:column;align-items:flex-start;display:flex;box-sizing:border-box;">
+                <h2 style="align-self:center;margin-top:10px;margin-bottom:8px;font-family:Inter, sans-serif;font-size:19.2px;font-weight:700;line-height:48px;color:rgb(34, 34, 34);position:static;box-sizing:border-box;">Pro</h2>
+                <div style="align-self:center;margin-bottom:8px;font-family:'Open Sans', sans-serif;font-size:16px;font-weight:700;line-height:32px;box-sizing:border-box;">$3,500 / month</div><a href="#" style="color:rgb(26, 27, 31);background-color:rgba(0, 0, 0, 0);align-self:center;box-shadow:rgb(26, 27, 31) 0px 0px 0px 1px inset;letter-spacing:2px;text-transform:uppercase;padding:12px 25px;font-size:12px;line-height:20px;transition:0.2s;cursor:pointer;border:0px none rgb(26, 27, 31);border-radius:0px;text-decoration:none solid rgb(26, 27, 31);display:block;box-sizing:border-box;">Talk to an Expert</a>
+                <ul role="list" style="align-self:stretch;margin-left:5px;margin-right:5px;padding-left:5px;padding-right:5px;font-family:'Open Sans', sans-serif;list-style:outside none none;margin-top:0px;margin-bottom:10px;box-sizing:border-box;">
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">For individual analysts and small teams</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Full 276M Domain Dataset</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Monthly Data Updates</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Live Cloud Share Directory</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;"><strong style="box-sizing:border-box;font-weight:700;">50 GB/month</strong> of included query usage</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Standard Email Support</div>
+                    </li>
+                </ul>
+            </div>
+            <div style="background-color:rgb(245, 245, 245);border-radius:9px;flex-direction:column;justify-content:flex-start;align-items:flex-start;display:flex;box-sizing:border-box;">
+                <h2 style="align-self:center;margin-top:10px;margin-bottom:8px;font-family:Inter, sans-serif;font-size:19.2px;font-weight:700;line-height:48px;color:rgb(34, 34, 34);position:static;box-sizing:border-box;">Business</h2>
+                <div style="align-self:center;margin-bottom:8px;font-family:'Open Sans', sans-serif;font-size:16px;font-weight:700;line-height:32px;box-sizing:border-box;">$6,000 / month</div><a href="#" style="color:rgb(26, 27, 31);background-color:rgba(0, 0, 0, 0);align-self:center;box-shadow:rgb(26, 27, 31) 0px 0px 0px 1px inset;letter-spacing:2px;text-transform:uppercase;padding:12px 25px;font-size:12px;line-height:20px;transition:0.2s;cursor:pointer;border:0px none rgb(26, 27, 31);border-radius:0px;text-decoration:none solid rgb(26, 27, 31);display:block;box-sizing:border-box;">Talk to an Expert</a>
+                <ul role="list" style="align-self:stretch;margin-left:5px;margin-right:5px;padding-left:5px;padding-right:5px;font-family:'Open Sans', sans-serif;list-style:outside none none;margin-top:0px;margin-bottom:10px;box-sizing:border-box;">
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">For operational data teams</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Full 276M Domain Dataset</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Weekly Data Updates</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Live Cloud Share Delivery</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;"><strong style="box-sizing:border-box;font-weight:700;">200 GB/month</strong> of included query usage</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Priority Email &amp; Chat Support</div>
+                    </li>
+                </ul>
+            </div>
+            <div style="background-color:rgb(245, 245, 245);border-radius:9px;flex-direction:column;justify-content:flex-start;align-items:flex-start;display:flex;box-sizing:border-box;">
+                <h2 style="align-self:center;margin-top:10px;margin-bottom:8px;font-family:Inter, sans-serif;font-size:19.2px;font-weight:700;line-height:48px;color:rgb(34, 34, 34);position:static;box-sizing:border-box;">Enterprise</h2>
+                <div style="align-self:center;margin-bottom:8px;font-family:'Open Sans', sans-serif;font-size:16px;font-weight:700;line-height:32px;box-sizing:border-box;">$12,000 / month</div><a href="#" style="color:rgb(26, 27, 31);background-color:rgba(0, 0, 0, 0);align-self:center;box-shadow:rgb(26, 27, 31) 0px 0px 0px 1px inset;letter-spacing:2px;text-transform:uppercase;padding:12px 25px;font-size:12px;line-height:20px;transition:0.2s;cursor:pointer;border:0px none rgb(26, 27, 31);border-radius:0px;text-decoration:none solid rgb(26, 27, 31);display:block;box-sizing:border-box;">Talk to an Expert</a>
+                <ul role="list" style="align-self:stretch;margin-left:5px;margin-right:5px;padding-left:5px;padding-right:5px;font-family:'Open Sans', sans-serif;list-style:outside none none;margin-top:0px;margin-bottom:10px;box-sizing:border-box;">
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">For security defenders &amp; large-scale analytics</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Full 276M Domain Dataset</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Daily Data Updates</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Live Cloud Share Delivery</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;"><strong style="box-sizing:border-box;font-weight:700;">1 TB/month</strong> of included query usage</div>
+                    </li>
+                    <li style="font-family:Roboto, sans-serif;box-sizing:border-box;">
+                        <div style="background-image:none;background-position:0px 0px;background-repeat:no-repeat;background-size: auto;align-self:stretch;margin-top:16px;padding-left:32px;font-family:'Open Sans', sans-serif;font-size:14px;line-height:24px;box-sizing:border-box;">Dedicated Technical Account Manager</div>
+                    </li>
+                </ul>
+                <div style="flex-direction:column;justify-content:center;align-items:center;padding:32px 0px 0px;display:flex;position:relative;box-shadow:rgba(150, 163, 181, 0.12) 0px 4px 130px 0px;box-sizing:border-box;"></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
